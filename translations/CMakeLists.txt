@@ -1,3 +1,3 @@
-project(compton-conf)
+project(picom-conf)
 
-build_component("." "${CMAKE_INSTALL_FULL_DATADIR}/compton-conf/translations")
+build_component("." "${CMAKE_INSTALL_FULL_DATADIR}/picom-conf/translations")

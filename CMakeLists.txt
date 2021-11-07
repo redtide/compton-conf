@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
 # The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
 # command to specify that the current project code is written for the given range of CMake
 # versions.
-project(compton-conf)
+project(picom-conf)
 
 set(LXQTBT_MINIMUM_VERSION "0.8.0")
 set(QT_MINIMUM_VERSION "5.12.0")
@@ -13,12 +13,12 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
-set(COMPTONCONF_MAJOR_VERSION 0)
-set(COMPTONCONF_MINOR_VERSION 16)
-set(COMPTONCONF_PATCH_VERSION 0)
-set(COMPTONCONF_VERSION ${COMPTONCONF_MAJOR_VERSION}.${COMPTONCONF_MINOR_VERSION}.${COMPTONCONF_PATCH_VERSION})
+set(PICOM_CONF_MAJOR_VERSION 0)
+set(PICOM_CONF_MINOR_VERSION 16)
+set(PICOM_CONF_PATCH_VERSION 0)
+set(PICOM_CONF_VERSION ${PICOM_CONF_MAJOR_VERSION}.${PICOM_CONF_MINOR_VERSION}.${PICOM_CONF_PATCH_VERSION})
 add_definitions(
-    "-DCOMPTONCONF_VERSION=\"${COMPTONCONF_VERSION}\""
+    "-DPICOM_CONF_VERSION=\"${PICOM_CONF_VERSION}\""
 )
 
 include(LXQtPreventInSourceBuilds)
@@ -55,61 +55,61 @@ include_directories(
   ${CMAKE_CURRENT_BINARY_DIR}
 )
 
-set(compton-conf_HS
-    compton-conf.h
+set(picom-conf_HS
+    picom-conf.h
     maindialog.h
 )
 
-set(compton-conf_SRCS
+set(picom-conf_SRCS
   maindialog.cpp
-  compton-conf.cpp
+  picom-conf.cpp
 )
 
-set(compton-conf_UIS
+set(picom-conf_UIS
   maindialog.ui
 )
 
-set(compton-conf_DESKTOP_FILES_IN
-    compton-conf.desktop.in
+set(picom-conf_DESKTOP_FILES_IN
+    picom-conf.desktop.in
 )
 
-lxqt_translate_ts(compton-conf_QM_FILES
+lxqt_translate_ts(picom-conf_QM_FILES
     UPDATE_TRANSLATIONS
         ${UPDATE_TRANSLATIONS}
     SOURCES
-        ${compton-conf_HS}
-        ${compton-conf_SRCS}
-        ${compton-conf_UIS}
+        ${picom-conf_HS}
+        ${picom-conf_SRCS}
+        ${picom-conf_UIS}
     INSTALL_DIR
         ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
 )
 
-lxqt_translate_desktop(compton-conf_DESKTOP_FILES SOURCES ${compton-conf_DESKTOP_FILES_IN})
+lxqt_translate_desktop(picom-conf_DESKTOP_FILES SOURCES ${picom-conf_DESKTOP_FILES_IN})
 
-qt5_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
+qt5_wrap_ui(picom-conf_UI_H ${picom-conf_UIS})
 
-set_property(SOURCE ${compton-conf_UI_H} PROPERTY SKIP_AUTOMOC ON)
+set_property(SOURCE ${picom-conf_UI_H} PROPERTY SKIP_AUTOMOC ON)
 
 add_definitions(
-  -DCOMPTON_CONF_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/compton-conf"
+  -DPICOM_CONF_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/picom-conf"
 )
 
-add_executable(compton-conf
-  ${compton-conf_SRCS}
-  ${compton-conf_UI_H}
-  ${compton-conf_QM_FILES}
-  ${compton-conf_QM_LOADER}
-  ${compton-conf_DESKTOP_FILES}
+add_executable(picom-conf
+  ${picom-conf_SRCS}
+  ${picom-conf_UI_H}
+  ${picom-conf_QM_FILES}
+  ${picom-conf_QM_LOADER}
+  ${picom-conf_DESKTOP_FILES}
 )
 
-target_link_libraries(compton-conf
+target_link_libraries(picom-conf
   ${QTX_LIBRARIES}
   ${LIBCONFIG_LDFLAGS}
 )
 
-install(TARGETS compton-conf RUNTIME DESTINATION bin)
-install(FILES compton.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/compton-conf)
-install(FILES ${compton-conf_DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
+install(TARGETS picom-conf RUNTIME DESTINATION bin)
+install(FILES picom.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/picom-conf)
+install(FILES ${picom-conf_DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
 
 # merged from lxqt-common
 add_subdirectory(autostart)
