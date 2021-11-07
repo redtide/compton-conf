@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=Application
 Name=Window Effects
-GenericName=Compton Configuration
-Comment=Configure Compton window effects
-TryExec=compton-conf
-Exec=compton-conf
-Icon=compton
+GenericName=Picom Configuration
+Comment=Configure Picom window effects
+TryExec=picom-conf
+Exec=picom-conf
+Icon=picom
 Categories=Settings;DesktopSettings;Qt;LXQt;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
 
 #TRANSLATIONS_DIR=translations

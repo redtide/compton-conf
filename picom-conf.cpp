@@ -1,4 +1,3 @@
-#include "compton-conf.h"
 #include <QApplication>
 #include <QLocale>
 #include <QLibraryInfo>
@@ -11,8 +10,8 @@ int main(int argc, char** argv) {
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
-    parser.setApplicationDescription(QStringLiteral("Compton Conf"));
-    const QString VERINFO = QStringLiteral(COMPTONCONF_VERSION
+    parser.setApplicationDescription(QStringLiteral("Picom Conf"));
+    const QString VERINFO = QStringLiteral(PICOM_CONF_VERSION
                                            "\nQt        " QT_VERSION_STR);
     app.setApplicationVersion(VERINFO);
     parser.addVersionOption();
@@ -25,7 +24,7 @@ int main(int argc, char** argv) {
     qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     app.installTranslator(&qtTranslator);
     // install our own tranlations
-    translator.load(QStringLiteral("compton-conf_") + QLocale::system().name(), QStringLiteral(COMPTON_CONF_DATA_DIR) + QStringLiteral("/translations"));
+    translator.load(QStringLiteral("picom-conf_") + QLocale::system().name(), QStringLiteral(PICOM_CONF_DATA_DIR) + QStringLiteral("/translations"));
     app.installTranslator(&translator);
 
     MainDialog dlg;

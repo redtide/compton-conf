@@ -186,12 +186,12 @@
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>ComptonConf 정보</translation>
+        <source>About PicomConf</source>
+        <translation>PicomConf 정보</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>

@@ -30,10 +30,10 @@
 #include <QColorDialog>
 #include <QMessageBox>
 
-// dbus interface of compton
-#define COMPTON_SERVICE_PREFIX    "com.github.chjj.compton."
-#define COMPTON_PATH       "/"
-#define COMPTON_INTERFACE  "com.github.chjj.compton"
+// dbus interface of picom
+#define PICOM_SERVICE_PREFIX    "com.github.yshui.picom."
+#define PICOM_PATH       "/"
+#define PICOM_INTERFACE  "com.github.yshui.picom"
 
 
 MainDialog::MainDialog(QString userConfigFile) {
@@ -48,7 +48,7 @@ MainDialog::MainDialog(QString userConfigFile) {
     }
     // QDir configDir = QDir(userConfigFile);
     // if(!configDir.exists())
-    userConfigFile_ += QLatin1String("/compton.conf");
+    userConfigFile_ += QLatin1String("/picom.conf");
   }
   else
     userConfigFile_ = userConfigFile;
@@ -57,8 +57,8 @@ MainDialog::MainDialog(QString userConfigFile) {
   if(config_read_file(&config_, userConfigFile_.toLocal8Bit().constData()) == CONFIG_FALSE) {
     // loading user config file failed
     // try our default example
-    qDebug() << "load fail, try " << COMPTON_CONF_DATA_DIR << "/compton.conf.example";
-    config_read_file(&config_, COMPTON_CONF_DATA_DIR "/compton.conf.example");
+    qDebug() << "load fail, try " << PICOM_CONF_DATA_DIR << "/picom.conf.example";
+    config_read_file(&config_, PICOM_CONF_DATA_DIR "/picom.conf.example");
   }
 
   // set up signal handlers and initial values of the controls
@@ -165,22 +165,22 @@ void MainDialog::saveConfig() {
   // save the config file
   config_write_file(&config_, userConfigFile_.toLocal8Bit().constData());
 
-  // ask compton to reload the config
+  // ask picom to reload the config
   QString displayName = QString::fromLocal8Bit(qgetenv("DISPLAY"));
   for(int i = 0; i < displayName.length(); ++i) {
     if(!displayName[i].isNumber()) // replace non-numeric chars with _
       displayName[i] = QLatin1Char('_');
   }
-  QString comptonServiceName = QStringLiteral(COMPTON_SERVICE_PREFIX) + displayName;
-  QDBusInterface iface(comptonServiceName, QStringLiteral(COMPTON_PATH), QStringLiteral(COMPTON_INTERFACE));
+  QString picomServiceName = QStringLiteral(PICOM_SERVICE_PREFIX) + displayName;
+  QDBusInterface iface(picomServiceName, QStringLiteral(PICOM_PATH), QStringLiteral(PICOM_INTERFACE));
   if(iface.isValid()) {
     iface.call(QStringLiteral("reset"));
-    // raise ourself to the top again (we'll loosing focus after reloading compton)
+    // raise ourself to the top again (we'll loosing focus after reloading picom)
     activateWindow();
   }
-  // FIXME: dbus interface of compton is not always available and reset() creates
+  // FIXME: dbus interface of picom is not always available and reset() creates
   // much flickers. Maybe we should use internal dbus method set_opts().
-  // Or, we can patch compton to do what we want.
+  // Or, we can patch picom to do what we want.
 }
 
 void MainDialog::done(int res) {
@@ -206,8 +206,8 @@ void MainDialog::onColorButtonClicked() {
 }
 
 void MainDialog::onAboutButtonClicked() {
-  QMessageBox::about(this, tr("About ComptonConf"),
-                     tr("ComptonConf - configuration tool for compton\n\nCopyright (C) 2013\nAuthor: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
+  QMessageBox::about(this, tr("About PicomConf"),
+                     tr("PicomConf - configuration tool for picom\n\nCopyright (C) 2013\nAuthor: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
 }
 
 void MainDialog::updateShadowColorButton() {

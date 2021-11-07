@@ -187,16 +187,16 @@
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>A ComptonConf névjegye</translation>
+        <source>About PicomConf</source>
+        <translation>A PicomConf névjegye</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - Compton beállító eszköz
+        <translation>PicomConf - Picom beállító eszköz
 
 Copyright (C) 2013
 Szerző: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>

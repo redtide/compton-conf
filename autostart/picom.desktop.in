@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
-Name=Compton (X Compositor)
+Name=Picom (X Compositor)
 GenericName=X compositor
 Comment=A X compositor
-TryExec=compton
-Exec=compton --dbus
+TryExec=picom
+Exec=picom --dbus
 
 # turned off by default
 Hidden=true

@@ -188,16 +188,16 @@ potrebbe comportare un uso minore di risorse per il server grafico X)</translati
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>Informazioni su ComptonConf</translation>
+        <source>About PicomConf</source>
+        <translation>Informazioni su PicomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - Strumento di configurazione per Compton
+        <translation>PicomConf - Strumento di configurazione per Picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>

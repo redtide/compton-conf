@@ -66,7 +66,7 @@
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Избегать рисования теней на всех окнах, которые используют 
+        <translation>Избегать рисования теней на всех окнах, которые используют
 расширение X Shape</translation>
     </message>
     <message>
@@ -191,16 +191,16 @@
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>О ComptonConf</translation>
+        <source>About PicomConf</source>
+        <translation>О PicomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - инструмент настройки compton
+        <translation>PicomConf - инструмент настройки picom
 
 Copyright (C) 2013
 Автор: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>

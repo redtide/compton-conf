@@ -191,16 +191,16 @@ juos atveriant/užveriant</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>Apie ComptonConf</translation>
+        <source>About PicomConf</source>
+        <translation>Apie PicomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - konfigūravimo įrankis, skirtas compton
+        <translation>PicomConf - konfigūravimo įrankis, skirtas picom
 
 Autorių teisės (C) 2013
 Autorius: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>

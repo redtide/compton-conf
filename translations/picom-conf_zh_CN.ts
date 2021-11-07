@@ -187,16 +187,16 @@
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
-        <source>About ComptonConf</source>
-        <translation>关于 ComptonConf</translation>
+        <source>About PicomConf</source>
+        <translation>关于 PicomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
-        <source>ComptonConf - configuration tool for compton
+        <source>PicomConf - configuration tool for picom
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - compton 的配置工具
+        <translation>PicomConf - picom 的配置工具
 
 版权所有 (C) 2013
 作者: 洪任諭 (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
