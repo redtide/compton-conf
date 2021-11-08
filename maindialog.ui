@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>581</width>
-    <height>426</height>
+    <width>610</width>
+    <height>460</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,17 +19,102 @@
      <property name="currentIndex">
       <number>0</number>
      </property>
+     <widget class="QWidget" name="generalTab">
+      <attribute name="title">
+       <string>General</string>
+      </attribute>
+      <layout class="QFormLayout" name="layGeneralTab">
+       <item row="0" column="0" colspan="2">
+        <widget class="QCheckBox" name="daemon">
+         <property name="text">
+          <string>Daemonize process. Fork to background after initialization</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="dbus">
+         <property name="text">
+          <string>Enable remote control via D-Bus</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <widget class="QCheckBox" name="no_ewmh_fullscreen">
+         <property name="text">
+          <string>Do not use EWMH to detect fullscreen windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0" colspan="2">
+        <widget class="QCheckBox" name="use_ewmh_active_win">
+         <property name="text">
+          <string>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QCheckBox" name="mark_wmwin_focused">
+         <property name="text">
+          <string>Try to detect WM windows and mark them as active</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QCheckBox" name="mark_ovredir_focused">
+         <property name="text">
+          <string>Mark windows that have no WM frame as active</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QCheckBox" name="force_win_blend">
+         <property name="text">
+          <string>Force all windows to be painted with blending</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="detect_transient">
+         <property name="text">
+          <string>Use WM_TRANSIENT_FOR to group windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QCheckBox" name="detect_rounded_corners">
+         <property name="text">
+          <string>Try to detect windows with rounded corners</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="detect_client_opacity">
+         <property name="text">
+          <string>Detect _NET_WM_OPACITY on client windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="detect_client_leader">
+         <property name="text">
+          <string>Use WM_CLIENT_LEADER to group windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0" colspan="2">
+        <widget class="QCheckBox" name="transparent_clipping">
+         <property name="text">
+          <string>Make transparent windows clip other windows</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
      <widget class="QWidget" name="shadowTab">
       <attribute name="title">
        <string>Shadow</string>
       </attribute>
-      <layout class="QFormLayout" name="formLayout">
-       <property name="verticalSpacing">
-        <number>5</number>
-       </property>
-       <property name="bottomMargin">
-        <number>3</number>
-       </property>
+      <layout class="QFormLayout" name="layShadowTab">
        <item row="0" column="0" colspan="2">
         <widget class="QCheckBox" name="shadow">
          <property name="text">
@@ -119,10 +204,7 @@
       <attribute name="title">
        <string>Opacity</string>
       </attribute>
-      <layout class="QFormLayout" name="formLayout_2">
-       <property name="fieldGrowthPolicy">
-        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-       </property>
+      <layout class="QFormLayout" name="layOpacityTab">
        <item row="0" column="0">
         <widget class="QLabel" name="inactive_opacity_label">
          <property name="text">
@@ -198,24 +280,31 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="0" colspan="2">
+       <item row="6" column="0" colspan="2">
         <widget class="QCheckBox" name="blur_background">
          <property name="text">
           <string>Blur background of transparent windows</string>
          </property>
         </widget>
        </item>
-       <item row="6" column="0" colspan="2">
+       <item row="7" column="0" colspan="2">
         <widget class="QCheckBox" name="blur_background_frame">
          <property name="text">
           <string>Blur background of opaque windows with transparent frames as well</string>
          </property>
         </widget>
        </item>
-       <item row="7" column="0" colspan="2">
+       <item row="8" column="0" colspan="2">
         <widget class="QCheckBox" name="blur_background_fixed">
          <property name="text">
           <string>Do not let blur radius adjust based on window opacity</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="inactive_opacity_override">
+         <property name="text">
+          <string>Inactive opacity set by -i overrides _NET_WM_OPACITY values</string>
          </property>
         </widget>
        </item>
@@ -225,7 +314,7 @@
       <attribute name="title">
        <string>Fade</string>
       </attribute>
-      <layout class="QFormLayout" name="formLayout_3">
+      <layout class="QFormLayout" name="layFadeTab">
        <item row="0" column="0" colspan="2">
         <widget class="QCheckBox" name="fading">
          <property name="text">
@@ -296,31 +385,54 @@
        <item row="1" column="1">
         <widget class="QSpinBox" name="fade_delta"/>
        </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="no_fading_destroyed_argb">
+         <property name="text">
+          <string>Do not fade destroyed ARGB windows with WM frame</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="otherTab">
+     <widget class="QWidget" name="optimizeTab">
       <attribute name="title">
-       <string>Other</string>
+       <string>Optimize</string>
       </attribute>
-      <layout class="QFormLayout" name="formLayout_4">
+      <layout class="QFormLayout" name="layOptimizeTab">
+       <item row="0" column="0" colspan="2">
+        <widget class="QCheckBox" name="vsync">
+         <property name="text">
+          <string>Enable/disable VSync</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="vsync_use_glfinish">
+         <property name="text">
+          <string>Use glFinish() instead of glFlush() for (possibly) better VSync</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="use_damage">
+         <property name="text">
+          <string>Enable the use of damage information to help limit the area to paint</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="backendTab">
+      <attribute name="title">
+       <string>Backend</string>
+      </attribute>
+      <layout class="QFormLayout" name="layBackendTab">
        <item row="0" column="1">
         <widget class="QGroupBox" name="backend">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
          <property name="title">
           <string>Rendering backend</string>
          </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="checkable">
-          <bool>false</bool>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
+         <layout class="QVBoxLayout" name="layBackend">
           <item>
            <widget class="QRadioButton" name="backend_xrender">
             <property name="text">
@@ -336,6 +448,66 @@
            </widget>
           </item>
          </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QGroupBox" name="gbxXrender">
+         <property name="title">
+          <string>X Render</string>
+         </property>
+         <layout class="QVBoxLayout" name="layXrender">
+          <item>
+           <widget class="QCheckBox" name="xrender_sync_fence">
+            <property name="text">
+             <string>Use X Sync fence to sync clients' draw calls (nvidia drivers)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QGroupBox" name="gbxGlx">
+         <property name="title">
+          <string>GLX</string>
+         </property>
+         <layout class="QVBoxLayout" name="layGlx">
+          <item>
+           <widget class="QCheckBox" name="glx_no_rebind_pixmap">
+            <property name="text">
+             <string>Avoid rebinding pixmap on window damage</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="glx_no_stencil">
+            <property name="text">
+             <string>Avoid using stencil buffer</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="debugTab">
+      <attribute name="title">
+       <string>Debug</string>
+      </attribute>
+      <layout class="QFormLayout" name="layDebugTab">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="monitor_repaint">
+         <property name="text">
+          <string>Highlight the updated area of the screen. X Render only</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="show_all_xerrors">
+         <property name="text">
+          <string>Show all X errors</string>
+         </property>
         </widget>
        </item>
       </layout>
