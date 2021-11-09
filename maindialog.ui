@@ -25,76 +25,62 @@
       </attribute>
       <layout class="QFormLayout" name="layGeneralTab">
        <item row="0" column="0" colspan="2">
-        <widget class="QCheckBox" name="daemon">
-         <property name="text">
-          <string>Daemonize process. Fork to background after initialization</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QCheckBox" name="dbus">
-         <property name="text">
-          <string>Enable remote control via D-Bus</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="2">
         <widget class="QCheckBox" name="detect_client_leader">
          <property name="text">
           <string>Use WM_CLIENT_LEADER to group windows</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="0" colspan="2">
+       <item row="1" column="0" colspan="2">
         <widget class="QCheckBox" name="detect_client_opacity">
          <property name="text">
           <string>Detect _NET_WM_OPACITY on client windows</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="0" colspan="2">
+       <item row="2" column="0" colspan="2">
         <widget class="QCheckBox" name="detect_rounded_corners">
          <property name="text">
           <string>Try to detect windows with rounded corners</string>
          </property>
         </widget>
        </item>
-       <item row="5" column="0" colspan="2">
+       <item row="3" column="0" colspan="2">
         <widget class="QCheckBox" name="detect_transient">
          <property name="text">
           <string>Use WM_TRANSIENT_FOR to group windows</string>
          </property>
         </widget>
        </item>
-       <item row="6" column="0" colspan="2">
+       <item row="4" column="0" colspan="2">
         <widget class="QCheckBox" name="force_win_blend">
          <property name="text">
           <string>Force all windows to be painted with blending</string>
          </property>
         </widget>
        </item>
-       <item row="7" column="0" colspan="2">
+       <item row="5" column="0" colspan="2">
         <widget class="QCheckBox" name="mark_ovredir_focused">
          <property name="text">
           <string>Mark windows that have no WM frame as active</string>
          </property>
         </widget>
        </item>
-       <item row="8" column="0" colspan="2">
+       <item row="6" column="0" colspan="2">
         <widget class="QCheckBox" name="mark_wmwin_focused">
          <property name="text">
           <string>Try to detect WM windows and mark them as active</string>
          </property>
         </widget>
        </item>
-       <item row="9" column="0" colspan="2">
+       <item row="7" column="0" colspan="2">
         <widget class="QCheckBox" name="no_ewmh_fullscreen">
          <property name="text">
           <string>Do not use EWMH to detect fullscreen windows</string>
          </property>
         </widget>
        </item>
-       <item row="10" column="0" colspan="2">
+       <item row="8" column="0" colspan="2">
         <widget class="QCheckBox" name="use_ewmh_active_win">
          <property name="text">
           <string>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</string>
