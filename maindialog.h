@@ -34,6 +34,7 @@ class QAbstractButton;
 class MainDialog : public QDialog
 {
   Q_OBJECT
+
 public:
   MainDialog(QString userConfigFile = QString());
   ~MainDialog();

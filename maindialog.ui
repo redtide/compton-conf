@@ -500,6 +500,10 @@
        <property name="text">
         <string>About</string>
        </property>
+       <property name="icon">
+        <iconset theme="help-about">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
       </widget>
      </item>
      <item>
@@ -508,7 +512,7 @@
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="standardButtons">
-        <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel</set>
+        <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel|QDialogButtonBox::Help</set>
        </property>
       </widget>
      </item>

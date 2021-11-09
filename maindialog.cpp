@@ -21,6 +21,7 @@
 #include "maindialog.h"
 #include "ui_maindialog.h"
 #include <QDebug>
+#include <QDesktopServices>
 #include <QDir>
 #include <QFile>
 #include <QFileInfo>
@@ -29,12 +30,12 @@
 #include <QDialogButtonBox>
 #include <QColorDialog>
 #include <QMessageBox>
+#include <QUrl>
 
 // dbus interface of picom
 #define PICOM_SERVICE_PREFIX    "com.github.chjj.compton."
 #define PICOM_PATH       "/"
 #define PICOM_INTERFACE  "com.github.chjj.compton"
-
 
 MainDialog::MainDialog(QString userConfigFile) {
   ui = new Ui::MainDialog;
@@ -64,6 +65,12 @@ MainDialog::MainDialog(QString userConfigFile) {
   // set up signal handlers and initial values of the controls
   connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton*)), SLOT(onDialogButtonClicked(QAbstractButton*)));
   connect(ui->aboutButton, SIGNAL(clicked(bool)), SLOT(onAboutButtonClicked()));
+
+  connect(ui->buttonBox->button(QDialogButtonBox::Help), &QPushButton::clicked, this, [=](){
+    QUrl url(QStringLiteral("https://github.com/redtide/picom-conf/wiki/Picom-documentation"));
+    QDesktopServices::openUrl(url);
+  });
+
   connect(ui->shadow_color, SIGNAL(clicked(bool)), SLOT(onColorButtonClicked()));
   double color;
   shadowColor_.setRedF(config_lookup_float(&config_, "shadow-red", &color) == CONFIG_TRUE ?  color : 0.0);
@@ -207,7 +214,9 @@ void MainDialog::onColorButtonClicked() {
 
 void MainDialog::onAboutButtonClicked() {
   QMessageBox::about(this, tr("About PicomConf"),
-                     tr("PicomConf - configuration tool for picom\n\nCopyright (C) 2013\nAuthor: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
+    tr("PicomConf - configuration tool for picom\n\n"
+    "Copyright (C) 2013\n"
+    "Author: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
 }
 
 void MainDialog::updateShadowColorButton() {
