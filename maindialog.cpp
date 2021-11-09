@@ -1,6 +1,7 @@
 /*
- * <one line to give the library's name and an idea of what it does.>
- * Copyright (C) 2013  <copyright holder> <email>
+ * picom-conf - GUI configuration tool for picom X composite manager
+ * Copyright (C) 2013-2018  Hong Jen Yee (PCMan) and LXQt team (as compton-conf)
+ * Copyright (C) 2021 Andrea Zanellato <redtid3@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -15,7 +16,6 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- *
  */
 
 #include "maindialog.h"
