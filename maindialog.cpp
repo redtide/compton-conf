@@ -31,9 +31,9 @@
 #include <QMessageBox>
 
 // dbus interface of picom
-#define PICOM_SERVICE_PREFIX    "com.github.yshui.picom."
+#define PICOM_SERVICE_PREFIX    "com.github.chjj.compton."
 #define PICOM_PATH       "/"
-#define PICOM_INTERFACE  "com.github.yshui.picom"
+#define PICOM_INTERFACE  "com.github.chjj.compton"
 
 
 MainDialog::MainDialog(QString userConfigFile) {
