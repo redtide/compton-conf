@@ -10,179 +10,267 @@
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
+        <source>General</source>
+        <translation>Generale</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="30"/>
+        <source>Daemonize process. Fork to background after initialization</source>
+        <translation>Demonizzare il processo. Passa in secondo piano dopo l&apos;inizializzazione</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="37"/>
+        <source>Enable remote control via D-Bus</source>
+        <translation>Abilita il controllo remoto tramite D-Bus</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="44"/>
+        <source>Do not use EWMH to detect fullscreen windows</source>
+        <translation>Non usare EWMH per rilevare le finestre a pieno schermo</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="51"/>
+        <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
+        <translation>Usa _NET_WM_ACTIVE_WINDOW per rilevare quale finestra ha il focus</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="58"/>
+        <source>Try to detect WM windows and mark them as active</source>
+        <translation>Prova a rilevare le finestre WM e contrassegnarle come attive</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="65"/>
+        <source>Mark windows that have no WM frame as active</source>
+        <translation>Contrassegna come attive le finestre WM prive di frame</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="72"/>
+        <source>Force all windows to be painted with blending</source>
+        <translation>Forza tutte le finestre ad essere disegnate in trasparenza</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="79"/>
+        <source>Use WM_TRANSIENT_FOR to group windows</source>
+        <translation>Usa WM_TRANSIENT_FOR per raggruppare le finestre</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="86"/>
+        <source>Try to detect windows with rounded corners</source>
+        <translation>Prova a rilevare le finestre con gli angoli arrotondati</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="93"/>
+        <source>Detect _NET_WM_OPACITY on client windows</source>
+        <translation>Rileva _NET_WM_OPACITY su finestre client</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="100"/>
+        <source>Use WM_CLIENT_LEADER to group windows</source>
+        <translation>Usa WM_CLIENT_LEADER per raggruppare le finestre</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="115"/>
         <source>Shadow</source>
         <translation>Ombra</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="67"/>
+        <location filename="../maindialog.ui" line="128"/>
         <source>The blur radius for shadows</source>
         <translation>Ampiezza sfocatura per le ombre</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="77"/>
+        <location filename="../maindialog.ui" line="138"/>
         <source>The left offset for shadows</source>
         <translation>Estensione verso l&apos;alto delle ombre</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="91"/>
+        <location filename="../maindialog.ui" line="152"/>
         <source>The top offset for shadows</source>
         <translation>Estensione verso sinistra delle ombre</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="105"/>
+        <location filename="../maindialog.ui" line="166"/>
         <source>The translucency for shadows</source>
         <translation>Trasparenza delle ombre</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="122"/>
+        <location filename="../maindialog.ui" line="183"/>
         <source>Color of shadow</source>
         <translation>Colore dell&apos;ombra</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="57"/>
-        <source>Fix some weirdness with ARGB windows</source>
-        <translation>Correggi problemi con lo standard ARGB delle finestre</translation>
+        <location filename="../maindialog.ui" line="391"/>
+        <source>Do not fade destroyed ARGB windows with WM frame</source>
+        <translation>Non dissolvere le finestre ARGB distrutte con frame WM</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="60"/>
-        <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Ometti la parte della maschera di ombra dietro la finestra</translation>
+        <location filename="../maindialog.ui" line="399"/>
+        <source>Optimize</source>
+        <translation>Ottimizza</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="50"/>
-        <source>Don&apos;t draw shadows on DND windows</source>
-        <translatorcomment>drag&amp;drop windows?</translatorcomment>
-        <translation>Nessuna ombra per finestre in spostamento</translation>
+        <location filename="../maindialog.ui" line="405"/>
+        <source>Enable/disable VSync</source>
+        <translation>Abilita/disabilita VSync</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="43"/>
-        <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Nessuna ombra per dock e pannelli</translation>
+        <location filename="../maindialog.ui" line="412"/>
+        <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
+        <translation>Usa glFinish() invece di glFlush() per un (possibile) migliore VSync</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="36"/>
+        <location filename="../maindialog.ui" line="419"/>
+        <source>Enable the use of damage information to help limit the area to paint</source>
+        <translation>Consenti uso delle damage info per limitare l&apos;area da disegnare</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="427"/>
+        <source>Backend</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="121"/>
         <source>Enable client-side shadows on windows</source>
         <translation>Abilita le ombre client-side alle finestre</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="136"/>
-        <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Non disegnare ombre per tutte le finestre disegnate</translation>
-    </message>
-    <message>
-        <location filename="../maindialog.ui" line="143"/>
+        <location filename="../maindialog.ui" line="197"/>
         <source>Crop shadows of maximized windows from extended displays</source>
         <translation>Ritaglia le ombre delle finestre massimizzate da schermi esterni</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="151"/>
+        <location filename="../maindialog.ui" line="205"/>
         <source>Opacity</source>
         <translation>Opacità</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="160"/>
-        <source>The opacity for menus</source>
-        <translation>Opacità dei menu</translation>
-    </message>
-    <message>
-        <location filename="../maindialog.ui" line="167"/>
+        <location filename="../maindialog.ui" line="211"/>
         <source>Default opacity of inactive windows</source>
         <translation>Opacità delle finestre inattive</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="174"/>
+        <location filename="../maindialog.ui" line="228"/>
         <source>Default opacity for active windows</source>
         <translation>Opacità delle finestre attive</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="181"/>
+        <location filename="../maindialog.ui" line="245"/>
         <source>Opacity of window titlebars and borders</source>
         <translation>Opacità delle barre del titolo e dei bordi</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="188"/>
-        <source>XRender backend: Step size for alpha pictures
-(Increasing it may result in less X resource usage)</source>
-        <translation>Intervallo della trasparenza del backend XRender (Aumentare il valore
-potrebbe comportare un uso minore di risorse per il server grafico X)</translation>
-    </message>
-    <message>
-        <location filename="../maindialog.ui" line="196"/>
+        <location filename="../maindialog.ui" line="262"/>
         <source>Dim inactive windows</source>
         <translation>Offuscare finestre inattive</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="203"/>
+        <location filename="../maindialog.ui" line="279"/>
         <source>Do not let dimness adjust based on window opacity</source>
         <translation>Grado di offuscamento indipendente dall&apos;opacità</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="210"/>
+        <location filename="../maindialog.ui" line="286"/>
         <source>Blur background of transparent windows</source>
         <translation>Sfuma lo sfondo delle finestre trasparenti</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="217"/>
+        <location filename="../maindialog.ui" line="293"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
         <translation>Sfuma anche lo sfondo delle finestre trasparenti con bordo trasparente</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="224"/>
+        <location filename="../maindialog.ui" line="300"/>
         <source>Do not let blur radius adjust based on window opacity</source>
         <translation>Grado di sfumatura indipendente dall&apos;opacità</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="292"/>
+        <location filename="../maindialog.ui" line="307"/>
+        <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
+        <translation>Opacità impostata con -i sovrascrive i valori di _NET_WM_OPACITY</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="315"/>
         <source>Fade</source>
         <translation>Dissolvenza</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="298"/>
+        <location filename="../maindialog.ui" line="321"/>
         <source>Fade windows during opacity changes</source>
         <translation>Dissolvere le finestre durante il cambio di opacità</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="305"/>
+        <location filename="../maindialog.ui" line="328"/>
         <source>The time between steps in a fade in milliseconds</source>
         <translation>Tempo tra i livelli di dissolvenza in millisecondi</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="312"/>
+        <location filename="../maindialog.ui" line="335"/>
         <source>Opacity change between steps while fading in</source>
         <translation>Cambio di opacità della dissolvenza in apertura</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="319"/>
+        <location filename="../maindialog.ui" line="342"/>
         <source>Opacity change between steps while fading out</source>
         <translation>Cambio di opacità della dissolvenza in chiusura</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="326"/>
+        <location filename="../maindialog.ui" line="349"/>
         <source>Avoid fade windows in/out when opening/closing</source>
         <translation>Nessuna dissolvenza delle finestre in apertura e chiusura</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="369"/>
-        <source>Other</source>
-        <translation>Altro</translation>
-    </message>
-    <message>
-        <location filename="../maindialog.ui" line="381"/>
+        <location filename="../maindialog.ui" line="433"/>
         <source>Rendering backend</source>
         <translation>Sistema di rendering</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="393"/>
+        <location filename="../maindialog.ui" line="439"/>
+        <location filename="../maindialog.ui" line="456"/>
         <source>X Render</source>
         <translation>Render X</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="400"/>
+        <location filename="../maindialog.ui" line="446"/>
         <source>GLX (OpenGL)</source>
         <translation>GLX (OpenGL)</translation>
     </message>
     <message>
-        <location filename="../maindialog.ui" line="416"/>
+        <location filename="../maindialog.ui" line="462"/>
+        <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
+        <translation>Usa X Sync fence per sincronia richieste client di disegno (nvidia)</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="472"/>
+        <source>GLX</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="478"/>
+        <source>Avoid rebinding pixmap on window damage</source>
+        <translation>Evita di riassociare pixmap su damage della finestra</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="485"/>
+        <source>Avoid using stencil buffer</source>
+        <translation>Evita di usare lo stencil buffer</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="496"/>
+        <source>Debug</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="502"/>
+        <source>Highlight the updated area of the screen. X Render only</source>
+        <translation>Evidenzia l&apos;area aggiornata dello schermo. Solo X Render</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="509"/>
+        <source>Show all X errors</source>
+        <translation>Visualizza tutti gli errori di X</translation>
+    </message>
+    <message>
+        <location filename="../maindialog.ui" line="522"/>
         <source>About</source>
         <translation>Informazioni</translation>
     </message>
