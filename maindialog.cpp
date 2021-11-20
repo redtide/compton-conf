@@ -70,6 +70,8 @@ MainDialog::MainDialog(QString userConfigFile) {
     QUrl url(QStringLiteral("https://github.com/redtide/picom-conf/wiki/Picom-documentation"));
     QDesktopServices::openUrl(url);
   });
+  connect(ui->buttonBox, &QDialogButtonBox::rejected, this, &MainDialog::reject);
+  connect(ui->buttonBox, &QDialogButtonBox::accepted, this, &MainDialog::accept);
 
   connect(ui->shadow_color, SIGNAL(clicked(bool)), SLOT(onColorButtonClicked()));
   double color;
