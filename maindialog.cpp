@@ -20,6 +20,8 @@
 
 #include "maindialog.h"
 #include "ui_maindialog.h"
+#include "collapsiblepane.hpp"
+
 #include <QDebug>
 #include <QDesktopServices>
 #include <QDir>
@@ -36,6 +38,24 @@
 #define PICOM_SERVICE_PREFIX    "com.github.chjj.compton."
 #define PICOM_PATH       "/"
 #define PICOM_INTERFACE  "com.github.chjj.compton"
+
+enum WinTypes {
+    Combo = 0,
+    Desktop,
+    Dialog,
+    Dnd,
+    Dock,
+    DropdownMenu,
+    Menu,
+    Normal,
+    Notification,
+    PopupMenu,
+    Splash,
+    Toolbar,
+    Tooltip,
+    Unknown,
+    Utility
+};
 
 MainDialog::MainDialog(QString userConfigFile) {
   ui = new Ui::MainDialog;
@@ -124,6 +144,7 @@ MainDialog::MainDialog(QString userConfigFile) {
       connect(child, SIGNAL(toggled(bool)), SLOT(onButtonToggled(bool)));
     }
   }
+  createWintypesTab();
 }
 
 MainDialog::~MainDialog() {
@@ -267,4 +288,87 @@ void MainDialog::configSetString(const char *key, const char *val)
     setting = config_setting_add(root, key, CONFIG_TYPE_STRING);
   }
   config_setting_set_string(setting, val);
+}
+
+void MainDialog::createWintypesTab()
+{
+    QScrollArea* scrollArea = new QScrollArea(ui->tabWidget);
+    QWidget* scrollContents = new QWidget(scrollArea);
+
+    QVBoxLayout* layout = new QVBoxLayout(scrollContents);
+    layout->setSpacing(0);
+    layout->setContentsMargins(0, 0, 0, 0);
+
+    scrollArea->setWidget(scrollContents);
+    scrollArea->setWidgetResizable(true);
+
+    CollapsiblePane* collapsiblePane[15];
+    QWidget* widget[15];
+    QGridLayout* gridLayout[15];
+    QCheckBox* clip_shadow_above[15];
+    QCheckBox* fade[15];
+    QCheckBox* shadow[15];
+    QCheckBox* redir_ignore[15];
+    QCheckBox* full_shadow[15];
+    QCheckBox* focus[15];
+    QDoubleSpinBox* opacity[15];
+    QLabel* opacity_label[15];
+
+    for (int i = 0; i < 15; ++i) {
+        collapsiblePane[i] = new CollapsiblePane(scrollContents);
+        scrollContents->layout()->addWidget(collapsiblePane[i]);
+        widget[i] = new QWidget();
+        gridLayout[i] = new QGridLayout(widget[i]);
+        gridLayout[i]->setContentsMargins(10, 10, 10, 10);
+        clip_shadow_above[i] = new QCheckBox(tr("Clip shadow above"), widget[i]);
+        fade[i] = new QCheckBox(tr("Fade"), widget[i]);
+
+        opacity[i] = new QDoubleSpinBox(widget[i]);
+        opacity[i]->setMaximum(1.00);
+        opacity[i]->setSingleStep(0.05);
+
+        shadow[i] = new QCheckBox(tr("Shadow"), widget[i]);
+        redir_ignore[i] = new QCheckBox(tr("Ignore redirection"), widget[i]);
+        full_shadow[i] = new QCheckBox(tr("Full shadow"), widget[i]);
+        focus[i] = new QCheckBox(tr("Focus"), widget[i]);
+        opacity_label[i] = new QLabel(tr("Opacity:"), widget[i]);
+
+        gridLayout[i]->addWidget(fade[i], 0, 0, 1, 1);
+        gridLayout[i]->addWidget(focus[i], 0, 1, 1, 1);
+        gridLayout[i]->addWidget(redir_ignore[i], 0, 2, 1, 1);
+        gridLayout[i]->addWidget(shadow[i], 1, 0, 1, 1);
+        gridLayout[i]->addWidget(full_shadow[i], 1, 1, 1, 1);
+        gridLayout[i]->addWidget(clip_shadow_above[i], 1, 2, 1, 1);
+        gridLayout[i]->addWidget(opacity_label[i], 2, 0, 1, 1);
+        gridLayout[i]->addWidget(opacity[i], 2, 1, 1, 2);
+
+        switch(i) {
+        #define WINTYPE_CASE(X) \
+            case X: \
+                collapsiblePane[i]->setText(tr(#X)); \
+                break
+        WINTYPE_CASE(Combo);
+        WINTYPE_CASE(Desktop);
+        WINTYPE_CASE(Dialog);
+        WINTYPE_CASE(Dnd);
+        WINTYPE_CASE(Dock);
+        WINTYPE_CASE(DropdownMenu);
+        WINTYPE_CASE(Menu);
+        WINTYPE_CASE(Normal);
+        WINTYPE_CASE(Notification);
+        WINTYPE_CASE(PopupMenu);
+        WINTYPE_CASE(Splash);
+        WINTYPE_CASE(Toolbar);
+        WINTYPE_CASE(Tooltip);
+        WINTYPE_CASE(Unknown);
+        WINTYPE_CASE(Utility);
+
+        #undef WINTYPE_CASE
+
+        default:
+            break;
+        }
+        collapsiblePane[i]->setWidget(widget[i]);
+    }
+    ui->tabWidget->insertTab(3, scrollArea, tr("Window Types"));
 }

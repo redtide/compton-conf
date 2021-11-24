@@ -56,17 +56,19 @@ include_directories(
 )
 
 set(picom-conf_HS
+    collapsiblepane.hpp
     picom-conf.h
     maindialog.h
 )
 
 set(picom-conf_SRCS
-  maindialog.cpp
-  picom-conf.cpp
+    collapsiblepane.cpp
+    maindialog.cpp
+    picom-conf.cpp
 )
 
 set(picom-conf_UIS
-  maindialog.ui
+    maindialog.ui
 )
 
 set(picom-conf_DESKTOP_FILES_IN
@@ -95,6 +97,7 @@ add_definitions(
 )
 
 add_executable(picom-conf
+  ${picom-conf_HS}
   ${picom-conf_SRCS}
   ${picom-conf_UI_H}
   ${picom-conf_QM_FILES}

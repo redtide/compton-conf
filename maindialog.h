@@ -50,6 +50,8 @@ private:
   void configSetBool(const char* key, bool val);
   void configSetString(const char* key, const char* val);
 
+  void createWintypesTab();
+
 private Q_SLOTS:
   void onButtonToggled(bool checked);
   void onSpinValueChanged(double d);
