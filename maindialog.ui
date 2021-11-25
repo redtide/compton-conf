@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Special Effect Settings</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <layout class="QVBoxLayout" name="layout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
@@ -293,7 +293,7 @@
       <attribute name="title">
        <string>Backend</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_11">
+      <layout class="QVBoxLayout" name="layBackendTab">
        <item>
         <widget class="QGroupBox" name="backend">
          <property name="title">
@@ -336,7 +336,7 @@
       <attribute name="title">
        <string>Advanced</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_9">
+      <layout class="QVBoxLayout" name="layAdvanced">
        <item>
         <widget class="QScrollArea" name="scrAdvanced">
          <property name="frameShape">
@@ -360,13 +360,13 @@
             <height>1095</height>
            </rect>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_10">
+          <layout class="QVBoxLayout" name="layAdvContents">
            <item>
             <widget class="QGroupBox" name="gbxGeneral">
              <property name="title">
               <string>General</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_6">
+             <layout class="QVBoxLayout" name="layGeneral">
               <item>
                <widget class="QCheckBox" name="detect_client_leader">
                 <property name="text">
@@ -438,13 +438,13 @@
              <property name="title">
               <string>Backends</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_2">
+             <layout class="QVBoxLayout" name="layBackends">
               <item>
                <widget class="QGroupBox" name="gbxAdvXrender">
                 <property name="title">
                  <string>X Render</string>
                 </property>
-                <layout class="QVBoxLayout" name="verticalLayout_3">
+                <layout class="QVBoxLayout" name="layGbxAdvXrender">
                  <item>
                   <widget class="QCheckBox" name="xrender_sync_fence">
                    <property name="text">
@@ -486,7 +486,7 @@
              <property name="title">
               <string>Debug</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_4">
+             <layout class="QVBoxLayout" name="layDebug">
               <item>
                <widget class="QCheckBox" name="monitor_repaint">
                 <property name="text">
@@ -509,7 +509,7 @@
              <property name="title">
               <string>Fade</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_5">
+             <layout class="QVBoxLayout" name="layFade">
               <item>
                <widget class="QCheckBox" name="no_fading_destroyed_argb">
                 <property name="text">
@@ -525,7 +525,7 @@
              <property name="title">
               <string>Opacity</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_7">
+             <layout class="QVBoxLayout" name="layOpacity">
               <item>
                <widget class="QCheckBox" name="inactive_opacity_override">
                 <property name="text">
@@ -541,7 +541,7 @@
              <property name="title">
               <string>Optimize</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_8">
+             <layout class="QVBoxLayout" name="layOptimize">
               <item>
                <widget class="QCheckBox" name="vsync">
                 <property name="text">
@@ -575,7 +575,7 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QHBoxLayout" name="layButtonBox">
      <item>
       <widget class="QPushButton" name="aboutButton">
        <property name="text">
@@ -593,7 +593,7 @@
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="standardButtons">
-        <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel|QDialogButtonBox::Help</set>
+        <set>QDialogButtonBox::Apply|QDialogButtonBox::Close|QDialogButtonBox::Help</set>
        </property>
       </widget>
      </item>
