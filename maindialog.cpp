@@ -40,21 +40,21 @@
 #define PICOM_INTERFACE  "com.github.chjj.compton"
 
 enum WinTypes {
-    Combo = 0,
-    Desktop,
-    Dialog,
-    Dnd,
-    Dock,
-    DropdownMenu,
-    Menu,
-    Normal,
-    Notification,
-    PopupMenu,
-    Splash,
-    Toolbar,
-    Tooltip,
-    Unknown,
-    Utility
+    combo = 0,
+    desktop,
+    dialog,
+    dnd,
+    dock,
+    dropdown_menu,
+    menu,
+    normal,
+    notification,
+    popup_menu,
+    splash,
+    toolbar,
+    tooltip,
+    unknown,
+    utility
 };
 
 MainDialog::MainDialog(QString userConfigFile) {
@@ -294,8 +294,8 @@ void MainDialog::createWintypesTab()
 {
     QScrollArea* scrollArea = new QScrollArea(ui->tabWidget);
     QWidget* scrollContents = new QWidget(scrollArea);
-
     QVBoxLayout* layout = new QVBoxLayout(scrollContents);
+
     layout->setSpacing(0);
     layout->setContentsMargins(0, 0, 0, 0);
 
@@ -305,33 +305,45 @@ void MainDialog::createWintypesTab()
     CollapsiblePane* collapsiblePane[15];
     QWidget* widget[15];
     QGridLayout* gridLayout[15];
+    QLabel* opacity_label[15];
+
+    QDoubleSpinBox* opacity[15];
     QCheckBox* clip_shadow_above[15];
     QCheckBox* fade[15];
-    QCheckBox* shadow[15];
-    QCheckBox* redir_ignore[15];
-    QCheckBox* full_shadow[15];
     QCheckBox* focus[15];
-    QDoubleSpinBox* opacity[15];
-    QLabel* opacity_label[15];
+    QCheckBox* full_shadow[15];
+    QCheckBox* redir_ignore[15];
+    QCheckBox* shadow[15];
 
     for (int i = 0; i < 15; ++i) {
         collapsiblePane[i] = new CollapsiblePane(scrollContents);
         scrollContents->layout()->addWidget(collapsiblePane[i]);
-        widget[i] = new QWidget();
+        widget[i] = new QWidget(collapsiblePane[i]);
         gridLayout[i] = new QGridLayout(widget[i]);
         gridLayout[i]->setContentsMargins(10, 10, 10, 10);
-        clip_shadow_above[i] = new QCheckBox(tr("Clip shadow above"), widget[i]);
-        fade[i] = new QCheckBox(tr("Fade"), widget[i]);
+
+        opacity_label[i] = new QLabel(tr("Opacity:"), widget[i]);
 
         opacity[i] = new QDoubleSpinBox(widget[i]);
         opacity[i]->setMaximum(1.00);
         opacity[i]->setSingleStep(0.05);
 
-        shadow[i] = new QCheckBox(tr("Shadow"), widget[i]);
-        redir_ignore[i] = new QCheckBox(tr("Ignore redirection"), widget[i]);
-        full_shadow[i] = new QCheckBox(tr("Full shadow"), widget[i]);
+        clip_shadow_above[i] = new QCheckBox(tr("Clip shadow above"), widget[i]);
+        fade[i] = new QCheckBox(tr("Fade"), widget[i]);
         focus[i] = new QCheckBox(tr("Focus"), widget[i]);
-        opacity_label[i] = new QLabel(tr("Opacity:"), widget[i]);
+        full_shadow[i] = new QCheckBox(tr("Full shadow"), widget[i]);
+        redir_ignore[i] = new QCheckBox(tr("Ignore redirection"), widget[i]);
+        shadow[i] = new QCheckBox(tr("Shadow"), widget[i]);
+
+        const QString si = QString::number(i);
+
+        opacity[i]->setObjectName(QLatin1String("opacity_") + si);
+        clip_shadow_above[i]->setObjectName(QLatin1String("clip-shadow-above_") + si);
+        fade[i]->setObjectName(QLatin1String("fade_") + si);
+        focus[i]->setObjectName(QLatin1String("focus_") + si);
+        full_shadow[i]->setObjectName(QLatin1String("full-shadow_") + si);
+        redir_ignore[i]->setObjectName(QLatin1String("redir-ignore_") + si);
+        shadow[i]->setObjectName(QLatin1String("shadow_") + si);
 
         gridLayout[i]->addWidget(fade[i], 0, 0, 1, 1);
         gridLayout[i]->addWidget(focus[i], 0, 1, 1, 1);
@@ -340,28 +352,33 @@ void MainDialog::createWintypesTab()
         gridLayout[i]->addWidget(full_shadow[i], 1, 1, 1, 1);
         gridLayout[i]->addWidget(clip_shadow_above[i], 1, 2, 1, 1);
         gridLayout[i]->addWidget(opacity_label[i], 2, 0, 1, 1);
-        gridLayout[i]->addWidget(opacity[i], 2, 1, 1, 2);
+        gridLayout[i]->addWidget(opacity[i], 2, 1, 1, 1);
 
         switch(i) {
         #define WINTYPE_CASE(X) \
-            case X: \
-                collapsiblePane[i]->setText(tr(#X)); \
-                break
-        WINTYPE_CASE(Combo);
-        WINTYPE_CASE(Desktop);
-        WINTYPE_CASE(Dialog);
-        WINTYPE_CASE(Dnd);
-        WINTYPE_CASE(Dock);
-        WINTYPE_CASE(DropdownMenu);
-        WINTYPE_CASE(Menu);
-        WINTYPE_CASE(Normal);
-        WINTYPE_CASE(Notification);
-        WINTYPE_CASE(PopupMenu);
-        WINTYPE_CASE(Splash);
-        WINTYPE_CASE(Toolbar);
-        WINTYPE_CASE(Tooltip);
-        WINTYPE_CASE(Unknown);
-        WINTYPE_CASE(Utility);
+            case X: {\
+                QString s = QLatin1String(#X); \
+                widget[i]->setObjectName(s); \
+                s = s.at(0).toUpper() \
+                    + s.mid(1).replace(QLatin1Char('_'), QLatin1Char(' ')); \
+                collapsiblePane[i]->setText(tr(s.toStdString().c_str())); \
+                break; \
+            }
+        WINTYPE_CASE(combo);
+        WINTYPE_CASE(desktop);
+        WINTYPE_CASE(dialog);
+        WINTYPE_CASE(dnd);
+        WINTYPE_CASE(dock);
+        WINTYPE_CASE(dropdown_menu);
+        WINTYPE_CASE(menu);
+        WINTYPE_CASE(normal);
+        WINTYPE_CASE(notification);
+        WINTYPE_CASE(popup_menu);
+        WINTYPE_CASE(splash);
+        WINTYPE_CASE(toolbar);
+        WINTYPE_CASE(tooltip);
+        WINTYPE_CASE(unknown);
+        WINTYPE_CASE(utility);
 
         #undef WINTYPE_CASE
 
@@ -369,6 +386,117 @@ void MainDialog::createWintypesTab()
             break;
         }
         collapsiblePane[i]->setWidget(widget[i]);
+
+        QString winType = widget[i]->objectName();
+
+        double value;
+        QString path = QLatin1String("wintypes.") + winType
+            + QLatin1Char('.') + QLatin1String(".opacity");
+
+        if(config_lookup_float(&config_, path.toUtf8().constData(), &value) == CONFIG_TRUE)
+            opacity[i]->setValue(value);
+
+        int val;
+        QString type;
+
+        #define SETUP_CHECKBOX(TYPE) \
+            val = -1; \
+            type = QLatin1String(#TYPE); \
+            path = QLatin1String("wintypes.") + winType \
+                + QLatin1Char('.') + type.replace(QLatin1Char('_'), QLatin1Char('-')); \
+            if(config_lookup_bool(&config_, path.toUtf8().constData(), &val) == CONFIG_TRUE) \
+                TYPE[i]->setChecked((bool)val)
+
+        SETUP_CHECKBOX(clip_shadow_above);
+        SETUP_CHECKBOX(fade);
+        SETUP_CHECKBOX(focus);
+        SETUP_CHECKBOX(shadow);
+        SETUP_CHECKBOX(redir_ignore);
+        SETUP_CHECKBOX(shadow);
+
+        #undef SETUP_CHECKBOX
+
+        connect(opacity[i], QOverload<double>::of(&QDoubleSpinBox::valueChanged),
+            this, &MainDialog::onWintypeOpacityChanged);
+
+        connect(clip_shadow_above[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
+        connect(fade[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
+        connect(focus[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
+        connect(full_shadow[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
+        connect(redir_ignore[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
+        connect(shadow[i], &QCheckBox::clicked,
+            this, &MainDialog::onWintypeBoolClicked);
+
     }
     ui->tabWidget->insertTab(3, scrollArea, tr("Window Types"));
+}
+
+void MainDialog::onWintypeBoolClicked(bool checked)
+{
+    qDebug() << "toggled: " << sender()->objectName();
+    const QString strType = sender()->parent()->objectName();
+    const QString strKey = sender()->objectName().split(QLatin1Char('_')).first();
+    const QString strPath =
+        QLatin1String("wintypes.") + strType + QLatin1Char('.') + strKey;
+
+    config_setting_t* setting = config_lookup(&config_, strPath.toUtf8().constData());
+
+    if(!setting) {
+        config_setting_t* root = config_root_setting(&config_);
+        config_setting_t* wintypes = config_setting_get_member(root, "wintypes");
+
+        if (!wintypes)
+            wintypes = config_setting_add(root, "wintypes", CONFIG_TYPE_GROUP);
+
+        setting = config_setting_get_member(wintypes, strType.toUtf8().constData());
+        if (!setting)
+            setting = config_setting_add(wintypes, strType.toUtf8().constData(), CONFIG_TYPE_GROUP);
+
+        setting = config_setting_add(setting, strKey.toUtf8().constData(), CONFIG_TYPE_BOOL);
+        if (!setting) {
+            qDebug() << "Error while creating setting: " << strPath;
+            return;
+        }
+    }
+    config_setting_set_bool(setting, checked);
+}
+
+void MainDialog::onWintypeOpacityChanged(double value)
+{
+    qDebug() << "changed: " << sender()->objectName() << ": " << value;
+    const QString strType = sender()->parent()->objectName();
+    const QString strKey = QLatin1String("opacity");
+    const QString strPath =
+        QLatin1String("wintypes.") + strType + QLatin1String(".opacity");
+
+    config_setting_t* setting = config_lookup(&config_, strPath.toUtf8().constData());
+
+    if(!setting) {
+        config_setting_t* root = config_root_setting(&config_);
+        config_setting_t* wintypes = config_setting_get_member(root, "wintypes");
+
+        if (!wintypes)
+            wintypes = config_setting_add(root, "wintypes", CONFIG_TYPE_GROUP);
+
+        setting = config_setting_get_member(wintypes, strType.toUtf8().constData());
+        if (!setting)
+            setting = config_setting_add(wintypes, strType.toUtf8().constData(), CONFIG_TYPE_GROUP);
+
+        setting = config_setting_add(setting, strKey.toUtf8().constData(), CONFIG_TYPE_FLOAT);
+        if (!setting) {
+            qDebug() << "Error while creating setting: " << strPath;
+            return;
+        }
+    }
+    config_setting_set_float(setting, value);
 }

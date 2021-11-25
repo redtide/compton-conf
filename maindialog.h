@@ -62,6 +62,9 @@ private Q_SLOTS:
   void onRadioGroupToggled(bool checked);
 
 private:
+    void onWintypeBoolClicked(bool);
+    void onWintypeOpacityChanged(double);
+
   Ui::MainDialog* ui;
   config_t config_;
   QString userConfigFile_;
