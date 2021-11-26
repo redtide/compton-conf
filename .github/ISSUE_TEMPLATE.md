@@ -36,8 +36,6 @@
 <!--- Include as many relevant details about the system you experienced    --->
 <!--- the bug in                                                           --->
 * Distribution & Version: 
-* Kernel: 
 * Qt Version: 
-* libqtxdg Version: 
 * lxqt-build-tools Version: 
 * Package version: 
