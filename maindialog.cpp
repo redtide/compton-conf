@@ -239,7 +239,9 @@ void MainDialog::onAboutButtonClicked() {
   QMessageBox::about(this, tr("About PicomConf"),
     tr("PicomConf - configuration tool for picom\n\n"
     "Copyright (C) 2013\n"
-    "Author: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
+    "Author: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n\n"
+    "Copyright (C) 2021\n"
+    "Andrea Zanellato <redtid3@gmail.com>"));
 }
 
 void MainDialog::updateShadowColorButton() {
