@@ -1,17 +1,9 @@
 cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
-# CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
-# CMakeLists.txt file even before calling the project() command.
-# The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
-# command to specify that the current project code is written for the given range of CMake
-# versions.
 project(picom-conf)
 
-set(LXQTBT_MINIMUM_VERSION "0.8.0")
 set(QT_MINIMUM_VERSION "5.12.0")
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
-
-find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
 set(PICOM_CONF_MAJOR_VERSION 0)
 set(PICOM_CONF_MINOR_VERSION 17)
@@ -20,10 +12,9 @@ set(PICOM_CONF_VERSION ${PICOM_CONF_MAJOR_VERSION}.${PICOM_CONF_MINOR_VERSION}.$
 
 add_definitions(-DPICOM_CONF_VERSION="${PICOM_CONF_VERSION}")
 
-include(LXQtPreventInSourceBuilds)
-include(LXQtConfigVars)
-include(LXQtTranslateTs)
+set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include(LXQtTranslateDesktop)
+include(LXQtTranslateTs)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
@@ -36,7 +27,7 @@ find_package(Qt5LinguistTools ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(LIBCONFIG REQUIRED libconfig)
 include(GNUInstallDirs REQUIRED)
-include(LXQtCompilerSettings NO_POLICY_SCOPE) # must be after cmake_minimum_required()
+include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 

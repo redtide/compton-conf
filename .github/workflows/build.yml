@@ -42,18 +42,6 @@ jobs:
       uses: jurplel/install-qt-action@v2
     - name: Install Dependencies
       run: sudo apt-get install libconfig++-dev
-    - name: Checkout LXQt Build Tools
-      uses: actions/checkout@v2
-      with:
-        repository: lxqt/lxqt-build-tools
-    - name: Install LXQt Build Tools
-      run: |
-        cmake \
-          -DCMAKE_INSTALL_PREFIX="/usr" \
-          -DCMAKE_BUILD_TYPE="$BUILD_TYPE" \
-          -B ${{ runner.workspace }}/buildtools
-        cd ${{ runner.workspace }}/buildtools && make
-        sudo make install
     - name: Checkout project
       uses: actions/checkout@v2
     - name: Configure
