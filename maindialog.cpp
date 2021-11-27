@@ -237,7 +237,8 @@ void MainDialog::onColorButtonClicked() {
 
 void MainDialog::onAboutButtonClicked() {
   QMessageBox::about(this, tr("About PicomConf"),
-    tr("PicomConf - configuration tool for picom\n\n"
+    tr("PicomConf - configuration tool for picom\n"
+    "Version: " PICOM_CONF_VERSION "\n\n"
     "Copyright (C) 2013\n"
     "Author: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n\n"
     "Copyright (C) 2021\n"
