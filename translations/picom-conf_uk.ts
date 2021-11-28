@@ -97,12 +97,12 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Внутрішні інтерфейси</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Не згортати знищені ARGB вікна з рамкою WM</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
@@ -122,12 +122,12 @@
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути використання допоміжної інформації про дефекти для обмеження ділянки для фарбування</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Внутрішній інтерфейс</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати X Sync fence для синхронізації клієнтських викликів вимальовування (драйвери nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
@@ -251,12 +251,12 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Уникати повторного прив’язування pixmap на пошкоджене вікно</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Уникати використання буферу шаблону</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
@@ -302,7 +302,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Обрізати тінь згори</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
