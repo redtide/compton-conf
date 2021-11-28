@@ -246,7 +246,7 @@
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Debug</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
@@ -312,7 +312,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Voller Schatten</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
