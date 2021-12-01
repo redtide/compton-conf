@@ -11,12 +11,12 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>מתקדם</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>כללי</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>מנגנונים</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -127,7 +127,7 @@
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>מנגנון</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>ניפוי שגיאות</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
@@ -297,7 +297,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>אטימות:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
