@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>לנסות לזהות חלונות עם פינות מעוגלות</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
