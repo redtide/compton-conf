@@ -3,7 +3,7 @@ project(picom-conf)
 
 set(QT_MINIMUM_VERSION "5.12.0")
 
-option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
+option(UPDATE_TRANSLATIONS "Update source translations" OFF)
 
 set(PICOM_CONF_MAJOR_VERSION 0)
 set(PICOM_CONF_MINOR_VERSION 17)
@@ -13,6 +13,8 @@ set(PICOM_CONF_VERSION ${PICOM_CONF_MAJOR_VERSION}.${PICOM_CONF_MINOR_VERSION}.$
 add_definitions(-DPICOM_CONF_VERSION="${PICOM_CONF_VERSION}")
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+set(LXQT_CMAKE_MODULES_DIR "${CMAKE_MODULE_PATH}")
+
 include(LXQtTranslateDesktop)
 include(LXQtTranslateTs)
 
@@ -33,54 +35,47 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
 set(QTX_LIBRARIES Qt5::Widgets Qt5::DBus)
 
-# ${CMAKE_INSTALL_SYSCONFDIR} uses install prefix?
-set(PICOM_XDG_CONFIG_DIR "/etc/xdg" CACHE STRING "XDG configuration directory")
-set(PICOM_CONF_DATA_DIR "${CMAKE_INSTALL_FULL_DATADIR}/picom-conf")
-
 include_directories(
   ${LIBCONFIG_INCLUDE_DIRS}
   ${CMAKE_CURRENT_BINARY_DIR}
 )
-set(picom-conf_HS
+set(SOURCE_FILES_
     collapsiblepane.hpp
-    picom-conf.h
-    maindialog.h
-)
-set(picom-conf_SRCS
     collapsiblepane.cpp
+    maindialog.h
     maindialog.cpp
     picom-conf.cpp
 )
-set(picom-conf_UIS
+set(UI_FILES_
     maindialog.ui
 )
-set(picom-conf_DESKTOP_FILES_IN
+set(DESKTOP_FILES_IN
     picom-conf.desktop.in
 )
-lxqt_translate_ts(picom-conf_QM_FILES
+lxqt_translate_ts(QM_FILES_
     UPDATE_TRANSLATIONS
         ${UPDATE_TRANSLATIONS}
     SOURCES
-        ${picom-conf_HS}
-        ${picom-conf_SRCS}
-        ${picom-conf_UIS}
+        ${SOURCE_FILES_}
+        ${UI_FILES_}
     INSTALL_DIR
         ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
 )
-lxqt_translate_desktop(picom-conf_DESKTOP_FILES SOURCES ${picom-conf_DESKTOP_FILES_IN})
+lxqt_translate_desktop(DESKTOP_FILES SOURCES ${DESKTOP_FILES_IN} USE_YAML)
 
-qt5_wrap_ui(picom-conf_UI_H ${picom-conf_UIS})
+qt5_wrap_ui(UI_FILES ${UI_FILES_})
+set_property(SOURCE ${UI_FILES} PROPERTY SKIP_AUTOMOC ON)
 
-set_property(SOURCE ${picom-conf_UI_H} PROPERTY SKIP_AUTOMOC ON)
+set(PICOM_CONF_DATA_DIR "${CMAKE_INSTALL_FULL_DATADIR}/picom-conf")
+set(PICOM_CONF_AUTOSTART_DIR "${CMAKE_INSTALL_FULL_SYSCONFDIR}/xdg/autostart" CACHE STRING "XDG autostart directory")
 
 add_definitions(-DPICOM_CONF_DATA_DIR="${PICOM_CONF_DATA_DIR}")
+
 add_executable(picom-conf
-  ${picom-conf_HS}
-  ${picom-conf_SRCS}
-  ${picom-conf_UI_H}
-  ${picom-conf_QM_FILES}
-  ${picom-conf_QM_LOADER}
-  ${picom-conf_DESKTOP_FILES}
+  ${SOURCE_FILES_}
+  ${UI_FILES_}
+  ${QM_FILES_}
+  ${DESKTOP_FILES}
 )
 target_link_libraries(picom-conf
   ${QTX_LIBRARIES}
@@ -88,7 +83,7 @@ target_link_libraries(picom-conf
 )
 install(TARGETS picom-conf RUNTIME DESTINATION bin)
 install(FILES picom.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/picom-conf)
-install(FILES ${picom-conf_DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
+install(FILES ${DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
 
 add_subdirectory(autostart)
 
@@ -98,7 +93,7 @@ Version:                        ${PICOM_CONF_VERSION}
 Build type:                     ${CMAKE_BUILD_TYPE}
 Install prefix:                 ${CMAKE_INSTALL_PREFIX}
 Configuration directory:        ${PICOM_CONF_DATA_DIR}
-XDG configuration directory:    ${PICOM_XDG_CONFIG_DIR}
+Autostart directory:            ${PICOM_CONF_AUTOSTART_DIR}
 
 Qt version:                     ${Qt5Core_VERSION_STRING}
 
