@@ -1,8 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=Window Effects
-GenericName=Picom Configuration
-Comment=Configure Picom window effects
 TryExec=picom-conf
 Exec=picom-conf
 Icon=picom
