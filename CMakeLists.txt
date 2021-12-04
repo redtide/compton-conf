@@ -13,10 +13,10 @@ set(PICOM_CONF_VERSION ${PICOM_CONF_MAJOR_VERSION}.${PICOM_CONF_MINOR_VERSION}.$
 add_definitions(-DPICOM_CONF_VERSION="${PICOM_CONF_VERSION}")
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-set(LXQT_CMAKE_MODULES_DIR "${CMAKE_MODULE_PATH}")
+set(LXQT_CMAKE_MODULES_DIR "${CMAKE_MODULE_PATH}/LXQTBuildTools")
 
-include(LXQtTranslateDesktop)
-include(LXQtTranslateTs)
+include(LXQTBuildTools/LXQtTranslateDesktop)
+include(LXQTBuildTools/LXQtTranslateTs)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
@@ -29,7 +29,7 @@ find_package(Qt5LinguistTools ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(LIBCONFIG REQUIRED libconfig)
 include(GNUInstallDirs REQUIRED)
-include(LXQtCompilerSettings NO_POLICY_SCOPE)
+include(LXQTBuildTools/LXQtCompilerSettings NO_POLICY_SCOPE)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
