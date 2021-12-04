@@ -1,8 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=Picom (X Compositor)
-GenericName=X compositor
-Comment=A X compositor
 TryExec=picom
 Exec=picom --dbus
 
