@@ -11,32 +11,32 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Προηγμένες</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Γενικές</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση του WM_CLIENT_LEADER για την ομαδοποίηση των πάραθύρων</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανίχνευση του _NET_WM_OPACITY σε παράθυρα πελάτες</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσπάθεια ανίχνευσης παραθύρων με στρογγυλοποιημένες γωνίες</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση του WM_TRANSIENT_FOR για την ομαδοποίηση των παραθύρων</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσπάθεια ανίχνευσης των παραθύρων WM και σημείωση ως ενεργά</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην γίνεται χρήση του EWMH για την ανίχνευση παραθύρων πλήρους οθόνης</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>

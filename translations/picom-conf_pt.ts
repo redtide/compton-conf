@@ -21,7 +21,7 @@
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar WM_CLIENT_LEADER para agrupar janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
