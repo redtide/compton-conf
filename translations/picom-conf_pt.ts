@@ -26,32 +26,32 @@
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detetar _NET_WM_OPACITY nas janelas de cliente</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar detetar janelas com cantos arredondados</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar WM_TRANSIENT_FOR para agrupar janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Forçar todas as janelas a serem pintadas com a mistura</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar as janelas que não têm moldura WM como ativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Tente detetar janelas WM e marque-as como ativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
