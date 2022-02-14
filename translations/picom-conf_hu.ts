@@ -6,37 +6,37 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Speciális ablakhatások</translation>
+        <translation>Speciális hatások beállítása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Haladó</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Általános</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_CLIENT_LEADER használata az ablakok csoportosításához</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_OPACITY észlelése a kliensablakokon</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Próbálja meg észlelni a lekerekített ablakokat</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_TRANSIENT_FOR használata ablakok csoportosításához</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ablakok megjelölése, amiknek nincs aktív WM kerete</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
@@ -56,12 +56,12 @@
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne használjon EWMH-t a teljes képernyős ablakok észleléséhez</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_ACTIVE_WINDOW használata annak eldöntéséhez, hogy melyik ablak van fókuszban</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -72,22 +72,22 @@
     <message>
         <location filename="../maindialog.ui" line="37"/>
         <source>The blur radius for shadows</source>
-        <translation>Elmosási sugár</translation>
+        <translation>Árnyékok elmosási sugara</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="47"/>
         <source>The left offset for shadows</source>
-        <translation>Bal határ</translation>
+        <translation>Árnyékok bal eltolása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="61"/>
         <source>The top offset for shadows</source>
-        <translation>Felső határ</translation>
+        <translation>Árnyékok felső eltolása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="75"/>
         <source>The translucency for shadows</source>
-        <translation>Áttetszőség</translation>
+        <translation>Árnyékok áttetszősége</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="92"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Backendek</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -107,17 +107,17 @@
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimalizálás</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőleges szinkronizáció be/kikapcsolása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>glFinish() használata a glFlush() helyett a(z esetlegesen jobb) függőleges szinkronizációhoz</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
@@ -127,38 +127,38 @@
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Ablakok kliensoldali árnyékolása</translation>
+        <translation>Ablakok kliensoldali árnyékolásának engedélyezése</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="106"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>A maximalizált ablakok árnyékának kivágása a kibővített kijelzőkről</translation>
+        <translation>A maximalizált ablakok árnyékának levágása a kiterjesztett kijelzőkről</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="114"/>
         <location filename="../maindialog.ui" line="526"/>
         <source>Opacity</source>
-        <translation>Áttetszőség</translation>
+        <translation>Átlátszatlanság</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="120"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Inaktív ablak alap áttetszősége</translation>
+        <translation>Inaktív ablak alap átlátszatlansága</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="137"/>
         <source>Default opacity for active windows</source>
-        <translation>Aktív ablak alapértelmezett áttetszősége</translation>
+        <translation>Aktív ablak alapértelmezett átlátszatlansága</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="154"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Ablakfejléc és keret alap áttetszősége</translation>
+        <translation>Ablakfejléc és keret alap átlátszatlansága</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="171"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Elsötétítés az ablak áttetszőségétől függetlenül</translation>
+        <translation>Elsötétítés az ablak átlátszatlanságától függetlenül</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="195"/>
@@ -183,12 +183,12 @@
     <message>
         <location filename="../maindialog.ui" line="209"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Ablak áttetszőségétől az elmosási sugár független</translation>
+        <translation>Ne állítsa az elmosási sugarat az ablak átlátszóságától függően</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Az -i kapcsolóval beállított inaktív átlátszatlanság felülbírálja a _NET_WM_OPACITY értéket</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -205,17 +205,17 @@
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Áttűnési sebesség ms</translation>
+        <translation>Áttűnési lépések közti idő milliszekundumban</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="240"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Előtűnésnél áttetszőségi változás</translation>
+        <translation>Átlátszatlansági változás a lépések közt előtűnésnél</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="263"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Eltűnésnél áttetszőségi változás</translation>
+        <translation>Átlátszatlansági változás a lépések közt eltűnésnél</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="286"/>
@@ -225,7 +225,7 @@
     <message>
         <location filename="../maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation>Képkészítő API</translation>
+        <translation>Renderelő backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="306"/>
@@ -246,7 +246,7 @@
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
@@ -261,17 +261,17 @@
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Hibakeresés</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>A képernyő frissített területeinek kiemelése. Csak X Rendernél</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes X hiba megjelenítése</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -292,12 +292,18 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - konfigurációs eszköz a picomhoz
+
+Copyright (C) 2013
+Szerző: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Copyright (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Átlátszatlanság:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
@@ -307,12 +313,12 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fókusz</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Teljes árnyék</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
@@ -322,7 +328,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Ablaktípusok</translation>
     </message>
 </context>
 </TS>
