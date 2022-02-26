@@ -11,57 +11,57 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Avancé</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Général</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser WM_CLIENT_LEADER pour grouper les fenêtres</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Détecter _NET_WM_OPACITY sur les fenêtres clientes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Essayer de détecter les fenêtres aux coins arrondis</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser WM_TRANSIENT_FOR pour regrouper les fenêtres</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Forcer toutes les fenêtres à être peintes avec mélange</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Marquer les fenêtres sans cadre de WM comme actives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Essayer de détecter les fenêtres WM et de les marquer comme actives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne pas utiliser EWMH pour détecter les fenêtres en plein écran</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser _NET_WM_ACTIVE_WINDOW pour déterminer quelle fenêtre est ciblée</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -97,37 +97,37 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Backends</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne pas décolorer les fenêtres ARGB détruites avec le cadre WM</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimiser</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer/désactiver VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilisez glFinish() au lieu de glFlush() pour (éventuellement) une meilleure VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer l&apos;utilisation des informations sur les dommages pour aider à limiter la zone à peindre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;opacité inactive définie par -i remplace les valeurs _NET_WM_OPACITY</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -241,37 +241,37 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser X Sync fence pour synchroniser les appels de dessin des clients (pilotes nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Éviter de relire le pixmap sur les dommages de la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Éviter d&apos;utiliser un tampon de gabarit</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Déboguer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettez en surbrillance la zone mise à jour de l&apos;écran. X Render uniquement</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher toutes les erreurs de X</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -292,37 +292,43 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - outil de configuration pour picom
+
+Droit d&apos;auteur (C) 2013
+Auteur : Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Droit d&apos;auteur (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacité :</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Découper l&apos;ombre au-dessus</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Focus</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Ombre pleine</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer la redirection</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Types de fenêtres</translation>
     </message>
 </context>
 </TS>
