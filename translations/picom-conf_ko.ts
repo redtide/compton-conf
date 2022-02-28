@@ -188,24 +188,24 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>-i로 설정한 비활성 불투명도는 _NET_WM_OPACITY 값을 재정의합니다</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <location filename="../maindialog.ui" line="510"/>
         <location filename="../maindialog.cpp" line="334"/>
         <source>Fade</source>
-        <translation>사라짐</translation>
+        <translation>페이드</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="223"/>
         <source>Fade windows during opacity changes</source>
-        <translation>불투명도 변경시 페이드 윈도우</translation>
+        <translation>불투명도 변경 중 창 페이드</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>페이드 단계 사이의 시간 (밀리 초)</translation>
+        <translation>페이드 단계 사이의 시간(밀리초)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="240"/>
@@ -220,7 +220,7 @@
     <message>
         <location filename="../maindialog.ui" line="286"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>열거 나 닫을 때 창을 페이드 인 / 아웃하지 마십시오</translation>
+        <translation>열거나 닫을 때 페이드 인/아웃 방지</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="300"/>
@@ -311,7 +311,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>위의 그림자 자르기</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
