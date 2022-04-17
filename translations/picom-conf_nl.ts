@@ -6,62 +6,62 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Instellingen van speciale effecten</translation>
+        <translation>Instellingen omtrent speciale effecten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Geavanceerd</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Algemeen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_CLIENT_LEADER gebruiken om vensters te groeperen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_OPACITY detecteren op clientvensters</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Trachten om vensters met afgeronde hoeken te detecteren</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_TRANSIENT_FOR gebruiken vensters te greoeperen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle vensters afdwingen om gemengd te worden getoond</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Vensters markeren die geen actief WM-frame hebben</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Trachten om WM-vensters te detecteren en als actief te markeren</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>EWMH niet gebruiken om beeldvullende vensters te detecteren</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_ACTIVE_WINDOW gebruiken om te bepalen welk venster gefocust is</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -87,7 +87,7 @@
     <message>
         <location filename="../maindialog.ui" line="75"/>
         <source>The translucency for shadows</source>
-        <translation>De doorzichtigheid voor schaduwen</translation>
+        <translation>De doorzichtigheid van schaduwen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="92"/>
@@ -97,37 +97,37 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Backends</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesloten ARGB-vensters met WM-frame niet vervagen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimaliseren</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>VSync in-/uitschakelen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>glFinish() gebruiken in plaats van glFlush() voor (mogelijk) betere VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Schade-informatie gebruiken om het te tekenen gebied vast te stellen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Inactieve doorzichtigheid, ingesteld door de -i overrides _NET_WM_OPACITY-waarden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -241,12 +241,12 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>X-synchronisatie gebruiken om tekenaanroepingen van cliets te synchroniseren (Nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>

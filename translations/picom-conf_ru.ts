@@ -26,42 +26,42 @@
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Обнаруживать _NET_WM_OPACITY у клиентских окон</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Пробовать определить окна с закруглёнными углами</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать WM_TRANSIENT_FOR для группировки окон</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Принудительно окрашивать все окна смешиванием</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Помечать окна без рамки WM активными</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Пробовать определить окна WM и помечать их, как активные</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Не использовать EWMH для определения полноэкранных окон</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать _NET_WM_ACTIVE_WINDOW для определения окна в фокусе</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -107,17 +107,17 @@
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Оптимизировать</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить/выключить вертикальную синхронизацию</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать glFinish() вместо glFlush() для (возможно) лучшей вертикальной синхронизации</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
@@ -264,17 +264,17 @@
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Отладка</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Подсвечивать обновлённую область экрана. Только для X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать все ошибки X.Org</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -295,37 +295,43 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - утилита для настройки picom
+
+Авторское право (C) 2013
+Автор: Хон Чженьи (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Авторское право (C) 2021
+Андреа Занеллато &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Непрозрачность:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Обрезать тень над</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Фокус</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Полная тень</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Игнорировать перенаправление</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Типы окон</translation>
     </message>
 </context>
 </TS>
