@@ -56,12 +56,12 @@
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Não usar o EWMH para detetar janelas de ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar o _NET_WM_ACTIVE_WINDOW para determinar que janela está focada</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -97,37 +97,37 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Backends</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Não desvanecer janelas ARGB destruídas com moldura WM</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Otimizar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar/Desativar Vsync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar glFinish() em vez de glFlush() para (possivelmente) melhor o VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir a utilização de informações sobre danos para ajudar a limitar a área a pintar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacidade inativa definida por valores -i substitui _NET_WM_OPACITY</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar X Sync fence para sincronizar as chamadas de desenho dos clientes (controladores nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
@@ -251,27 +251,27 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Evitar reenvio do pixmap em danos na janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Evitar o uso de stencil buffer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Depurar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Destacar a área atualizada do ecrã. Apenas X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar todos os erros X</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -292,37 +292,43 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - ferramenta de configuração para Picom
+
+Direitos de autor (C) 2013
+Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Direitos de autor (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacidade:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Cortar a sombra acima</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Foco</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombra completa</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar o redirecionamento</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipos de janelas</translation>
     </message>
 </context>
 </TS>
