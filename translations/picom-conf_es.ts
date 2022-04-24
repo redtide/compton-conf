@@ -11,37 +11,37 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Avanzado</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Use WM_CLIENT_LEADER para agrupar ventanas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detectar _NET_WM_OPACITY en las ventanas del cliente</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Intente detectar ventanas con esquinas redondeadas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Use WM_TRANSIENT_FOR para agrupar ventanas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Forzar que todas las ventanas se pinten con la mezcla</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
