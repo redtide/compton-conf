@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimieren</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle X-Fehler anzeigen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -297,17 +297,17 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Deckkraft:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Schatten oben abschneiden</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokus</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
@@ -317,12 +317,12 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Umleitung ignorieren</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Fensterarten</translation>
     </message>
 </context>
 </TS>

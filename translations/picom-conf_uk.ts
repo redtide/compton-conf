@@ -276,7 +276,7 @@
     <message>
         <location filename="../maindialog.ui" line="582"/>
         <source>About</source>
-        <translation>Про</translation>
+        <translation>Про застосунок</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="239"/>
