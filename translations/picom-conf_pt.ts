@@ -41,27 +41,27 @@
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation>Forçar todas as janelas a serem pintadas com a mistura</translation>
+        <translation>Forçar todas as janelas a serem desenhadas com a junção</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation>Marcar as janelas que não têm moldura WM como ativas</translation>
+        <translation>Marcar janelas que não têm moldura WM como ativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation>Tente detetar janelas WM e marque-as como ativas</translation>
+        <translation>Tentar detetar janelas WM e marcar como ativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation>Não usar o EWMH para detetar janelas de ecrã inteiro</translation>
+        <translation>Não usar EWMH para detetar janelas de ecrã completo</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation>Usar o _NET_WM_ACTIVE_WINDOW para determinar que janela está focada</translation>
+        <translation>Usar _NET_WM_ACTIVE_WINDOW para determinar que janela está focada</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -77,17 +77,17 @@
     <message>
         <location filename="../maindialog.ui" line="47"/>
         <source>The left offset for shadows</source>
-        <translation>O deslocamento esquerdo das sombras</translation>
+        <translation>Margem esquerda das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="61"/>
         <source>The top offset for shadows</source>
-        <translation>O deslocamento superior das sombras</translation>
+        <translation>Margem superior das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="75"/>
         <source>The translucency for shadows</source>
-        <translation>A translucidez das sombras</translation>
+        <translation>Translucidez das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="92"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation>Backends</translation>
+        <translation>Estruturas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -112,22 +112,22 @@
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation>Ativar/Desativar Vsync</translation>
+        <translation>Ativar/desativar VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation>Usar glFinish() em vez de glFlush() para (possivelmente) melhor o VSync</translation>
+        <translation>Usar glFinish() em vez de glFlush() para (possivelmente) melhorar VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation>Permitir a utilização de informações sobre danos para ajudar a limitar a área a pintar</translation>
+        <translation>Permitir utilização de informações sobre danos para ajudar a limitar a área a pintar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation>Backend</translation>
+        <translation>Estrutura</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="154"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Opacidade das barras de título e contornos das janelas</translation>
+        <translation>Opacidade das barras de título e dos contornos de janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="171"/>
@@ -183,7 +183,7 @@
     <message>
         <location filename="../maindialog.ui" line="209"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Não ajustar o raio de desfocagem tendo como base a opacidade da janela</translation>
+        <translation>Não ajustar raio de desfocagem tendo como base a opacidade da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="532"/>
@@ -225,7 +225,7 @@
     <message>
         <location filename="../maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation>Renderização</translation>
+        <translation>Método de processamento</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="306"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation>Usar X Sync fence para sincronizar as chamadas de desenho dos clientes (controladores nvidia)</translation>
+        <translation>Usar X Sync &apos;fence&apos; para sincronizar as chamadas de desenho dos clientes (controladores Nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
@@ -251,12 +251,12 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation>Evitar reenvio do pixmap em danos na janela</translation>
+        <translation>Evitar reenvio do &apos;pixmap&apos; em danos na janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation>Evitar o uso de stencil buffer</translation>
+        <translation>Evitar uso de &apos;stencil buffer&apos;</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
@@ -281,7 +281,7 @@
     <message>
         <location filename="../maindialog.cpp" line="239"/>
         <source>About PicomConf</source>
-        <translation>Acerca de ComptomConf</translation>
+        <translation>Acerca de PicomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="240"/>
@@ -292,7 +292,7 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation>PicomConf - ferramenta de configuração para Picom
+        <translation>PicomConf - ferramenta de configuração para picom
 
 Direitos de autor (C) 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
@@ -308,7 +308,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation>Cortar a sombra acima</translation>
+        <translation>Cortar sombra acima</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
@@ -323,7 +323,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation>Ignorar o redirecionamento</translation>
+        <translation>Ignorar reencaminhamento</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
