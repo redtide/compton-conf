@@ -41,12 +41,12 @@
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξαναγκασμός σχεδίασης όλων των παραθύρων με ανάμειξη</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση όλων των παραθύρων χωρίς περίγραμμα, του Διαχειριστή Παραθύρων (WM), ως ενεργά</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση του _NET_WM_ACTIVE_WINDOW για τον εντοπισμό του εστιασμένου παραθύρου</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Συστήματα υποστήριξης</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -107,17 +107,17 @@
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Βελτιστοποίηση</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποίηση/απενεργοποίηση VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση glFinish() αντί του glFlush() για (ενδεχομένως) καλύτερο VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
