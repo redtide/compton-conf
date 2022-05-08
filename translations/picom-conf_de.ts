@@ -11,7 +11,7 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortgeschritten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Versuchen, Fenster mit abgerundeten Ecken zu erkennen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
