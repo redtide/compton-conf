@@ -266,7 +266,7 @@
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation>突出显示屏幕上的updated area 。X 只渲染</translation>
+        <translation>突出显示屏幕上的updated area（仅支持 X Render）</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
