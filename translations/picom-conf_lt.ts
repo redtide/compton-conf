@@ -11,12 +11,12 @@
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Išplėstiniai</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Bendri</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
