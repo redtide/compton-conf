@@ -137,7 +137,7 @@
     <message>
         <location filename="../maindialog.ui" line="106"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Сховати тіні максимізованих вікон на додаткових екранах</translation>
+        <translation>Сховати тіні розгорнутих вікон на додаткових екранах</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="114"/>
@@ -225,7 +225,7 @@
     <message>
         <location filename="../maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation>Настройка рендерингу</translation>
+        <translation>Рушій рендерингу</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="306"/>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation>Налагодження</translation>
+        <translation>Зневадження</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
