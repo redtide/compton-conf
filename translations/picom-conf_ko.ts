@@ -298,10 +298,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
-Andrea Zanellato &lt;redtid3@gmail.com&gt;
-
-한국어 번역
-이정희 &lt;daemul72@gmail.com&gt;</translation>
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
