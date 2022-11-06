@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished">尝试检测具有圆角的窗口</translation>
+        <translation>尝试检测具有圆角的窗口</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished">使用_NET_WM_ACTIVE_WINDOW来确定哪个窗口被聚焦</translation>
+        <translation>使用_NET_WM_ACTIVE_WINDOW来确定被聚焦的窗口</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
