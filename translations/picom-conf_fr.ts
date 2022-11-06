@@ -251,7 +251,7 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished">Éviter de relire le pixmap sur les dommages de la fenêtre</translation>
+        <translation>Éviter de relier les pixels en cas d&apos;endommagement de la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
