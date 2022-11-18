@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished">将没有WM框架的窗口标记为活动窗口</translation>
+        <translation>将没有WM框架的窗口标记为活动窗口</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished">不要用WM框架淡化被破坏的ARGB窗口</translation>
+        <translation>不要用WM框架淡化被破坏的ARGB窗口</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
@@ -122,7 +122,7 @@
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished">允许使用损坏信息以帮助限制要绘制的区域</translation>
+        <translation>允许使用损坏信息以帮助限制要绘制的区域</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>

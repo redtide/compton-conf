@@ -16,52 +16,52 @@
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Umum</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Gunakan WM_CLIENT_LEADER ke dalam kelompok Jendela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detect _NET_WM_OPACITY di Jendela Klien</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Mencoba untuk mendeteksi jendela dengan sudut membulat</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Gunakan WM_TRANSIENT_FOR ke dalam kelompok Jendela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Paksa semua jendela di warnai dengan blending</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Tandai jendela yang tidak memiliki bingkai WM aktif</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Mencoba untuk mendeteksi jendela WM dan tandai sebagai aktif</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangan gunakan EWMH untuk mendeteksi jendela layar penuh</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Gunakan _NET_WM_ACTIVE_WINDOW untuk menentukan jendela mana yang difokuskan</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
