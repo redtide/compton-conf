@@ -41,27 +41,27 @@
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished">Força que totes les finestres estiguin pintades amb la barreja</translation>
+        <translation>Força a pintar totes les finestres amb barreja</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished">Marqueu les finestres que no tenen marc WM com a actives</translation>
+        <translation>Marca les finestres WM sense marcs com a actives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished">Intenta detectar finestres WM i marcar-les com a actives</translation>
+        <translation>Intenta detectar finestres WM i marcar-les com a actives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished">No utilitzeu EWMH per detectar finestres de pantalla completa</translation>
+        <translation>No utilitzeu EWMH per detectar finestres de pantalla completa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished">Utilitzeu _NET_WM_ACTIVE_WINDOW per detectar quina finestra té el focus</translation>
+        <translation>Utilitzeu _NET_WM_ACTIVE_WINDOW per a determinar quina finestra està enfocada</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished">Rerefons</translation>
+        <translation>Processos de fons</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished">Utilitzeu glFinish() en comptes de glFlush() per a (possiblement) millor VSync</translation>
+        <translation>Utilitzeu glFinish() en comptes de glFlush() per a (possiblement) millorar VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished">L&apos;opacitat inactiva establerta per -i anul·la els valors de _NET_WM_OPACITY</translation>
+        <translation>L&apos;opacitat inactiva establerta per -i anul·la els valors de _NET_WM_OPACITY</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar X Sync Fence per a sincronitzar les crides de dibuix dels clients (controladors de Nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
@@ -251,17 +251,17 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished">Evitar la reassignació del mapa de píxels en danyar la finestra</translation>
+        <translation>Evita tornar a vincular el mapa de píxels amb els danys de la finestra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Evita l&apos;ús de la memòria intermèdia de plantilles</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished">Depura</translation>
+        <translation>Depura</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
@@ -292,7 +292,13 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - eina de configuració per a picom
+
+Copyright (C) 2013
+Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Copyright (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
@@ -302,27 +308,27 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Retalla l&apos;ombra a sobre</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfocament</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Ombra completa</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora la redirecció</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipus de finestra</translation>
     </message>
 </context>
 </TS>
