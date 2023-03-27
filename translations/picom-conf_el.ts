@@ -102,7 +102,7 @@
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Να μην γίνεται εξασθένιση των κατεστραμμένων παραθύρων ARGB με πλαίσιο WM</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
@@ -122,12 +122,12 @@
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποίηση των πληροφοριών βλαβών για βοήθεια στην μείωση της περιοχής σχεδίασης</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύστημα υποστήριξης</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="30"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Η ανενεργή αδιαφάνεια καθορισμένη με -i αντικαθιστά τις τιμές του _NET_WM_OPACITY</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
@@ -241,37 +241,37 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση του X Sync fence για συγχρονισμό των κλήσεων σχεδίασης των πελατών (οδηγοί nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποφυγή επαναχαρτογράφησης των εικονοστοιχείων κατά την καταστροφή του παραθύρου</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποφυγή χρήσης ενδιάμεσης μνήμης πρότυπου</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποσφαλμάτωση</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Τονισμός της ενημερωμένης περιοχής της οθόνης. Μόνο X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση όλων των σφαλμάτων του X</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -292,37 +292,43 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - εργαλείο διαμόρφωσης του picom
+
+Πνευματικά δικαιώματα (C) 2013
+Δημιουργός: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Πνευματικά δικαιώματα (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Αδιαφάνεια:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποκοπή της πάνω σκίασης</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Εστίαση</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Πλήρης σκίαση</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγνόηση της ανακατεύθυνσης</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Τύποι παραθύρων</translation>
     </message>
 </context>
 </TS>
