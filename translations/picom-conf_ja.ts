@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>角が丸いウィンドウの検出を試みる</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>全画面ウィンドウの検出に EWMH を使用しない</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
