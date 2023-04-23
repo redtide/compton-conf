@@ -21,7 +21,7 @@
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudoti WM_CLIENT_LEADER langų grupavimui</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>

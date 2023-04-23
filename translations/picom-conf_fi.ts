@@ -11,12 +11,12 @@
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Yleiset</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ryhmitä ikkunat käyttämällä WM_CLIENT_LEADER</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
@@ -67,12 +67,12 @@
     <message>
         <location filename="../maindialog.ui" line="30"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä asiakaspuolen varjoja ikkunoissa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="37"/>
         <source>The blur radius for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjojen sumennussäde</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="47"/>
