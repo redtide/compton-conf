@@ -322,7 +322,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>ウインドウの種類</translation>
     </message>
 </context>
 </TS>

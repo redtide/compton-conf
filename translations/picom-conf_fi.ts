@@ -77,211 +77,212 @@
     <message>
         <location filename="../maindialog.ui" line="47"/>
         <source>The left offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjojen vasen aloituskohta</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="61"/>
         <source>The top offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjojen yläaloituskohta</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="75"/>
         <source>The translucency for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjojen läpinäkyvyys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="92"/>
         <source>Color of shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjon väri</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="106"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Rajaa suurennettujen ikkunoiden varjot laajennetuissa näytöissä</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="114"/>
         <location filename="../maindialog.ui" line="526"/>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Peittävyys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="120"/>
         <source>Default opacity of inactive windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Passiivisten ikkunoiden oletuspeittävyys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="137"/>
         <source>Default opacity for active windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivisten ikkunoiden oletuspeittävyys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="154"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunoiden otsikkorivin ja reunan peittävyys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="171"/>
         <source>Dim inactive windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Himmennä passiiviset ikkunat</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä säädä himmeyttä ikkunan peittävyyden perusteella</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="195"/>
         <source>Blur background of transparent windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Sumenna läpinäkyvien ikkunoiden tausta</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="202"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation type="unfinished"></translation>
+        <translation>Sumenna peittävien ikkunoiden tausta huolimatta sen läpinäkyvistä kehyksistä</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="209"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä säädä sumennussädettä ikkunan peittävyyden perusteella</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisäasetukset</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustaosat</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Passiivinen peittävyys asetettu -i-parametrillä ohittaa _NET_WM_OPACITY-arvot</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <location filename="../maindialog.ui" line="510"/>
         <location filename="../maindialog.cpp" line="334"/>
         <source>Fade</source>
-        <translation type="unfinished"></translation>
+        <translation>Häivytys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="223"/>
         <source>Fade windows during opacity changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Häivytä ikkunat peittävyysmuutosten aikana</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="230"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Häivytysvaiheiden välinen viive millisekunneissa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="240"/>
         <source>Opacity change between steps while fading in</source>
-        <translation type="unfinished"></translation>
+        <translation>Peittävyysmuutoksen määrä sisäänhäivytysvaiheiden välillä</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="263"/>
         <source>Opacity change between steps while fading out</source>
-        <translation type="unfinished"></translation>
+        <translation>Peittävyysmuutoksen määrä uloshäivytysvaiheiden välillä</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="286"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä sisään-/uloshäivytä ikkunoita avattaessa/suljettaessa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä häivytä tuhottuja ARGB-ikkunoita joilla on WM-kehys</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimointi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä pystytahdistusta</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä glFinish():iä glFlush():in sijaan (mahdollisesti) parantamaan pystytahdistusta</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä vauriotietoja helpottamaan piirtoalueen rajaamista</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustaosa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Hahmotuksen taustaosa</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="306"/>
         <location filename="../maindialog.ui" line="445"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X-hahmontaja</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="313"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä X-synkronointiaitaa pitämään asiakkaiden piirtokutsut synkronoituina (nvidia-ajurit)
+Käytä X-synkronointiaitaa pitämään piirtokutsut asiakkailta synkronoituina (nvidia-ajurit)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä liitä pikselikarttaa uudelleen kun ikkuna muuttuu</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä käytä sapluunapuskuria</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheenkorjaus</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Korosta näytön päivitetty alue. Vain X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä kaikki X-virheet</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="239"/>
         <source>About PicomConf</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietoja PicomConfista</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="240"/>
@@ -292,37 +293,43 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 
 Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>PicomConf - picomin asetustyökalu
+
+Copyright (C) 2013
+Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
+
+Copyright (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Peittävyys:</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Rajaa varjo ylittäessä</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivinen</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Täydet varjot</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohita uudelleen ohjaus</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunatyypit</translation>
     </message>
 </context>
 </TS>
