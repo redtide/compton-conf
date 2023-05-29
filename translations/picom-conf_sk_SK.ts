@@ -21,47 +21,47 @@
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Na zoskupenie okien použite WM_CLIENT_LEADER</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detect _NET_WM_OPACITY v klientskych oknách</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Skúste nájsť okná so zaoblenými rohmi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Na zoskupenie okien použiť WM_TRANSIENT_FOR</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynútiť, aby boli všetky okná miešanej farby</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Označiť okná, ktoré nemajú okraj WM, ako aktívne</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokúsiť sa nájsť okná WM a označiť ich ako aktívne</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoužívať EWMH pre detekciu okien na celú obrazovku</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť _NET_WM_ACTIVE_WINDOW k určeniu, ktoré okno je aktívne</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadný okraj</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="516"/>
@@ -107,12 +107,12 @@
     <message>
         <location filename="../maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimalizovať</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť/zakázať VSync</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
@@ -246,12 +246,12 @@
     <message>
         <location filename="../maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Zabrániť opätovnému naviazaniu pixmap pri poškodení okna</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
@@ -276,7 +276,7 @@
     <message>
         <location filename="../maindialog.ui" line="582"/>
         <source>About</source>
-        <translation>O aplikácii</translation>
+        <translation>O tomto</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="239"/>

@@ -112,7 +112,7 @@
     <message>
         <location filename="../maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>VSync の有効化/無効化</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="555"/>
@@ -266,12 +266,12 @@
     <message>
         <location filename="../maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>画面の更新部分をハイライト表示します。X レンダリングのみ</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>全ての X エラーを表示する</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="582"/>
@@ -317,7 +317,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>リダイレクトを無視する</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="443"/>
