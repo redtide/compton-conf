@@ -1,7 +1,7 @@
 /*
  * picom-conf - GUI configuration tool for picom X composite manager
  * Copyright (C) 2013-2018  Hong Jen Yee (PCMan) and LXQt team (as compton-conf)
- * Copyright (C) 2021 Andrea Zanellato <redtid3@gmail.com>
+ * Copyright (C) 2021-2023  Andrea Zanellato <redtid3@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public

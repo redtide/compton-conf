@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2021 Andrea Zanellato
+    Copyright (c) 2021-2023 Andrea Zanellato
     SPDX-License-Identifier: MIT
 */
 #pragma once
