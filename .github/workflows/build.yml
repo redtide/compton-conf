@@ -39,11 +39,11 @@ jobs:
     - name: Update Packages
       run: sudo apt-get update
     - name: Install Qt
-      uses: jurplel/install-qt-action@v2
+      uses: jurplel/install-qt-action@v3
     - name: Install Dependencies
       run: sudo apt-get install libconfig++-dev
     - name: Checkout project
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Configure
       run: |
         cmake \
@@ -60,7 +60,7 @@ jobs:
         tar czvf "$INSTALL_NAME".tar.gz "$INSTALL_NAME"
     - name: Upload Artifacts
       if: ${{ matrix.config.cc == 'gcc' }}
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Linux Artifacts
         path: ${{ runner.workspace }}/${{ env.INSTALL_NAME }}.tar.gz
@@ -74,7 +74,7 @@ jobs:
     steps:
     - name: Set Environment Variables
       run: echo "INSTALL_REF=${GITHUB_REF##*/}" >> "$GITHUB_ENV"
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v3
       with:
         name: Linux Artifacts
     - name: Display File Information
