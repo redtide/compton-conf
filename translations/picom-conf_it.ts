@@ -308,7 +308,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     <message>
         <location filename="../maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritaglia l&apos;ombra sopra</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
