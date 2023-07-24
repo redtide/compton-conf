@@ -6,32 +6,32 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Eriefektide seadistused</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Üldist</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Akende rühmitamiseks kasuta WM_CLIENT_LEADER meetodit</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Alamakendel tuvasta _NET_WM_OPACITY olek</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Ürita tuvastada ümarate nurkadega aknaid</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Akende rühmitamiseks kasuta WM_TRANSIENT_FOR meetodit</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="401"/>
