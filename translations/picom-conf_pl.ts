@@ -122,7 +122,7 @@
     <message>
         <location filename="../maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz korzystanie z informacji o uszkodzeniach, aby ograniczyć obszar do malowania</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="294"/>
@@ -241,7 +241,7 @@
     <message>
         <location filename="../maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj ogrodzenia X Sync, aby zsynchronizować wywołania losowania klientów (sterowniki nvidia)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="461"/>
@@ -251,7 +251,7 @@
     <message>
         <location filename="../maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Unikaj ponownego wiązania piksmapy w przypadku uszkodzenia okna</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="474"/>
@@ -313,7 +313,7 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     <message>
         <location filename="../maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokus</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="336"/>
