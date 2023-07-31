@@ -88,7 +88,7 @@ MainDialog::MainDialog(QString userConfigFile) {
   connect(ui->aboutButton, SIGNAL(clicked(bool)), SLOT(onAboutButtonClicked()));
 
   connect(ui->buttonBox->button(QDialogButtonBox::Help), &QPushButton::clicked, this, [=](){
-    QUrl url(QStringLiteral("https://github.com/redtide/picom-conf/wiki/Picom-documentation"));
+    QUrl url(QStringLiteral("https://github.com/qtilities/picom-conf/wiki/Picom-documentation"));
     QDesktopServices::openUrl(url);
   });
   connect(ui->buttonBox, &QDialogButtonBox::rejected, this, &MainDialog::reject);
