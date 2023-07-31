@@ -46,6 +46,7 @@ jobs:
     - name: Install Dependencies
       run: |
         packages=(
+          libconfig++-dev
           qtbase5-dev
           qttools5-dev
         )
