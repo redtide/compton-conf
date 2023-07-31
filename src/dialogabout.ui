@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Qtilities::DialogAbout</class>
+ <widget class="QDialog" name="Qtilities::DialogAbout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="layout">
+   <item>
+    <widget class="QTabWidget" name="tblAbout">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabInfo">
+      <attribute name="title">
+       <string>Information</string>
+      </attribute>
+      <widget class="QWidget" name="tabInfoLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>441</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="layTabInfo">
+        <item>
+         <widget class="QTextBrowser" name="txtInfo">
+          <property name="source">
+           <url>
+            <string>qrc:/about.html</string>
+           </url>
+          </property>
+          <property name="searchPaths">
+           <stringlist notr="true"/>
+          </property>
+          <property name="openExternalLinks">
+           <bool>true</bool>
+          </property>
+          <property name="openLinks">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tabAuthors">
+      <attribute name="title">
+       <string>Thanks</string>
+      </attribute>
+      <widget class="QWidget" name="tabAuthorsLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>441</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="layTabAuthors">
+        <item>
+         <widget class="QTextBrowser" name="txtAuthors">
+          <property name="acceptRichText">
+           <bool>false</bool>
+          </property>
+          <property name="source">
+           <url>
+            <string>qrc:/thanks.html</string>
+           </url>
+          </property>
+          <property name="searchPaths">
+           <stringlist notr="true"/>
+          </property>
+          <property name="openExternalLinks">
+           <bool>true</bool>
+          </property>
+          <property name="openLinks">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tabLicense">
+      <attribute name="title">
+       <string>License</string>
+      </attribute>
+      <widget class="QWidget" name="tabLicenseLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>441</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="layTabLicense">
+        <item>
+         <widget class="QTextBrowser" name="txtLicense">
+          <property name="source">
+           <url>
+            <string>qrc:/license.html</string>
+           </url>
+          </property>
+          <property name="searchPaths">
+           <stringlist notr="true"/>
+          </property>
+          <property name="openExternalLinks">
+           <bool>true</bool>
+          </property>
+          <property name="openLinks">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Close</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

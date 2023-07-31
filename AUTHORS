@@ -1,11 +1,13 @@
-Upstream Authors:
-    LXQt team: https://lxqt.org
-    Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
-    Andrea Zanellato <redtid3@gmail.com>
+## Original Authors (as compton-conf)
 
-Copyright:
-    Copyright (c) 2013-2020 LXQt team
-    Copyright (c) 2021-2023 Andrea Zanellato
+- [LXQt team]
+- [Hong Jen Yee (PCMan)]
 
-License: LGPL-2.1+
-The full text of the licenses can be found in the 'COPYING' file.
+## Translators
+
+- **Italian**: [Stefonarch (Standreas)]
+
+
+[Hong Jen Yee (PCMan)]:   mailto:pcman.tw@gmail.com
+[LXQt team]:              https://lxqt-project.org/
+[Stefonarch (Standreas)]: https://github.com/stefonarch/

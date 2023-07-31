@@ -1,20 +1,20 @@
-# remove files from deployment using `git archive`
+# See https://help.github.com/en/articles/dealing-with-line-endings
 
-# git* files
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.svgz binary
+
+# remove files from deployment using `git archive`
 .gitattributes      export-ignore
 .github             export-ignore
 .gitignore          export-ignore
-
-
-# several files and directories we never want to export 
-# a little bit belt and braces as the most of these files
-# should never ever be in the repository
-
 .*~                 export-ignore
 .kdev4              export-ignore
 release.sh          export-ignore
 .translation-update export-ignore
-
 /build              export-ignore
 /temp               export-ignore
 /tmp                export-ignore

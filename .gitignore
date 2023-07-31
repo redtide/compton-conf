@@ -1,3 +1,9 @@
-/build*/
-*.kdev4
+*build*/
+*.bak
+*.diff
+*.patch
+*.json
+*.kdev*
+*.qm
 *.user
+resources/about.md

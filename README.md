@@ -4,8 +4,8 @@
 
 picom-conf is a configuration tool for X composite manager [picom][1].
 
-![Main window - shadows](resources/screenshots/picom-conf-1.png)
-![Main window - window types](resources/screenshots/picom-conf-2.png)
+![Main window - shadows](resources/screenshot.png)
+![Main window - window types](resources/screenshot-2.png)
 
 ## Dependencies
 

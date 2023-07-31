@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+TryExec=@PROJECT_ID@
+Exec=@PROJECT_ID@
+Icon=@PROJECT_ICON_FILE_NAME@
+Categories=@PROJECT_CATEGORIES@;
+

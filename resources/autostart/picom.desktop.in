@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+TryExec=picom
+Exec=picom --dbus
+
+# turned off by default
+Hidden=true
+OnlyShowIn=LXQt;
+X-LXQt-Module=true
+
