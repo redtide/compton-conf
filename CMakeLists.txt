@@ -4,7 +4,7 @@ project(picom-conf
     LANGUAGES CXX
 )
 include(GNUInstallDirs)
-set(PROJECT_AUTOSTART_DIR "${CMAKE_INSTALL_FULL_SYSCONFDIR}/xdg/autostart" CACHE STRING "XDG autostart directory")
+option(PICOM_ENABLE_AUTOSTART "Enable picom autostart using DBus" OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -108,15 +108,18 @@ install(FILES ${DESKTOP_FILES}
 #===============================================================================
 # XDG Autostart
 #===============================================================================
-qtls_translate_desktop(DESKTOP_FILES
-    SOURCES         "resources/autostart/picom.desktop.in"
-    TRANSLATION_DIR "resources/autostart/translations"
-)
-add_custom_target(autostart_desktop_files ALL DEPENDS ${DESKTOP_FILES})
-install(FILES ${DESKTOP_FILES}
-    DESTINATION "${PROJECT_AUTOSTART_DIR}"
-    COMPONENT   "Runtime"
-)
+set(PROJECT_AUTOSTART_DIR "${CMAKE_INSTALL_FULL_SYSCONFDIR}/xdg/autostart")
+if(${PICOM_ENABLE_AUTOSTART})
+    qtls_translate_desktop(DESKTOP_FILES
+        SOURCES         "resources/autostart/picom.desktop.in"
+        TRANSLATION_DIR "resources/autostart/translations"
+    )
+    add_custom_target(autostart_desktop_files ALL DEPENDS ${DESKTOP_FILES})
+    install(FILES ${DESKTOP_FILES}
+        DESTINATION "${PROJECT_AUTOSTART_DIR}"
+        COMPONENT   "Runtime"
+    )
+endif()
 #===============================================================================
 # Project information
 #===============================================================================
@@ -128,6 +131,7 @@ Build type:                  ${CMAKE_BUILD_TYPE}
 Install prefix:              ${CMAKE_INSTALL_PREFIX}
 Configuration directory:     ${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_ID}
 Autostart directory:         ${PROJECT_AUTOSTART_DIR}
+Autostart enabled:           ${PICOM_ENABLE_AUTOSTART}
 
 CXX Debug flags:             ${CMAKE_CXX_FLAGS_DEBUG}
 CXX Release flags:           ${CMAKE_CXX_FLAGS_RELEASE}
