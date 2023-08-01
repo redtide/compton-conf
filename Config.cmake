@@ -22,14 +22,9 @@ set(PROJECT_TRANSLATIONS_DIR   "resources/translations")
 # Appstream
 #===============================================================================
 set(PROJECT_APPSTREAM_SPDX_ID  "CC0-1.0")
-set(PROJECT_APPSTREAM_ID       "${PROJECT_ID}")
+set(PROJECT_APPSTREAM_ID       "picom_conf")
 set(PROJECT_ICON_FORMAT        "freedesktop")
-if(UNIX AND NOT APPLE)
-    set(PROJECT_ICON_FILE_NAME "preferences-system")
-elseif(APPLE)
-    # TODO: macOS and Windows
-else()
-endif()
+set(PROJECT_ICON_FILE_NAME     "preferences-system")
 #===============================================================================
 # Adapt to CMake variables
 #===============================================================================

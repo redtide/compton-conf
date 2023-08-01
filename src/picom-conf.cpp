@@ -1,11 +1,11 @@
+#include "maindialog.h"
+
 #include <QApplication>
 #include <QCommandLineParser>
 #include <QIcon>
 #include <QLibraryInfo>
 #include <QLocale>
 #include <QTranslator>
-
-#include "maindialog.h"
 
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
     QTranslator qtTranslator, translator;
 
     // install the translations built-into Qt itself
-#if 0
+#if 1
     QLocale locale = QLocale::system();
 #else
     QLocale locale(QLocale("it"));
@@ -58,6 +58,7 @@ int main(int argc, char** argv) {
 
     MainDialog dlg;
     dlg.setWindowIcon(QIcon::fromTheme("preferences-system", QIcon(":/preferences-system")));
-    dlg.exec();
-    return 0;
+    dlg.show();
+
+    return app.exec();
 }
