@@ -2,7 +2,7 @@
 
 ## Overview
 
-picom-conf is a configuration tool for X composite manager [picom][1].
+picom-conf is a configuration tool for X composite manager [picom].
 
 ![Main window - shadows](resources/screenshot.png)
 ![Main window - window types](resources/screenshot-2.png)
@@ -12,17 +12,18 @@ picom-conf is a configuration tool for X composite manager [picom][1].
 Runtime:
 
 - Qt5 base
-- [libconfig][2]
+- [libconfig]
 
 Build:
 
 - CMake
 - Qt5 Linguist Tools
+- [Qtilitools] CMake modules
 - Git (optional, to pull latest VCS checkouts)
 
 ## Build
 
-`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a [valid alternative][3].<br>
+`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a [valid alternative].<br>
 `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.<br>
 Using `sudo make install` is discouraged, instead use the system package manager where possible.
 
@@ -34,18 +35,19 @@ DESTDIR="$(pwd)/package" cmake --install build
 
 ## Packages
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/picom-conf.svg)][4]
+[![Packaging status]](https://repology.org/project/picom-conf/versions)
 
 ## Translations
 
-For contributing translations the [LXQt Weblate Platform][5] can be used.
+For contributing translations the [LXQt Weblate] platform can be used.
 
-[![Translation status](https://translate.lxqt-project.org/widgets/qtilities/-/picom-conf/multi-auto.svg)][6]
+[![Translation status]](https://translate.lxqt-project.org/widgets/qtilities/)
 
 
-[1]: https://github.com/yshui/picom/
-[2]: https://github.com/hyperrealm/libconfig/
-[3]: https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
-[4]: https://repology.org/project/picom-conf/versions
-[5]: https://translate.lxqt-project.org/projects/qtilities/picom-conf/
-[6]: https://translate.lxqt-project.org/engage/qtilities/?utm_source=widget
+[picom]:              https://github.com/yshui/picom/
+[libconfig]:          https://github.com/hyperrealm/libconfig/
+[Qtilitools]:         https://github.com/qtilities/qtilitools/
+[valid alternative]:  https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
+[Packaging status]:   https://repology.org/badge/vertical-allrepos/picom-conf.svg
+[LXQt Weblate]:       https://translate.lxqt-project.org/projects/qtilities/picom-conf/
+[Translation status]: https://translate.lxqt-project.org/widgets/qtilities/-/picom-conf/multi-auto.svg
