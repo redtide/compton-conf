@@ -6,15 +6,3 @@
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.svgz binary
-
-# remove files from deployment using `git archive`
-.gitattributes      export-ignore
-.github             export-ignore
-.gitignore          export-ignore
-.*~                 export-ignore
-.kdev4              export-ignore
-release.sh          export-ignore
-.translation-update export-ignore
-/build              export-ignore
-/temp               export-ignore
-/tmp                export-ignore
