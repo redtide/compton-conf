@@ -1,4 +1,4 @@
-#include "maindialog.h"
+#include "maindialog.hpp"
 
 #include <QApplication>
 #include <QCommandLineParser>

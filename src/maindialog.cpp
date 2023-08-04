@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#include "maindialog.h"
+#include "maindialog.hpp"
 #include "ui_maindialog.h"
 #include "collapsiblepane.hpp"
 #include "dialogabout.hpp"
