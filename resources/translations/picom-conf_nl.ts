@@ -117,7 +117,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation>glFinish() gebruiken in plaats van glFlush() voor (mogelijk) betere VSync</translation>
+        <translation>glFinish() gebruiken in plaats van glFlush() voor (mogelĳk) betere VSync</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="562"/>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="106"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Verwijder schaduwen van gemaximaliseerde vensters van uitgerekte beeldschermen</translation>
+        <translation>Verwĳder schaduwen van gemaximaliseerde vensters van uitgerekte beeldschermen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="114"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="188"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Mate van dofheid niet afhankelijk van ondoorzichtigheid van venster</translation>
+        <translation>Mate van dofheid niet afhankelĳk van ondoorzichtigheid van venster</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="195"/>
@@ -183,7 +183,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="209"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Mate van verwaziging onafhankelijk van ondoorzichtigheid van venster</translation>
+        <translation>Mate van verwaziging onafhankelĳk van ondoorzichtigheid van venster</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
@@ -205,22 +205,22 @@
     <message>
         <location filename="../../src/maindialog.ui" line="230"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>De tijd tussen stappen in het wegsterven in milliseconden</translation>
+        <translation>De tĳd tussen stappen in het wegsterven in milliseconden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="240"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Verandering in ondoorzichtigheid bij stappen tijdens opdoemen</translation>
+        <translation>Verandering in ondoorzichtigheid bij stappen tĳdens opdoemen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="263"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Verandering in ondoorzichtigheid bij stappen tijdens wegsterven</translation>
+        <translation>Verandering in ondoorzichtigheid bĳ stappen tĳdens wegsterven</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="286"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Laat vensters niet opdoemen of wegsterven bij openen en sluiten</translation>
+        <translation>Laat vensters niet opdoemen of wegsterven bĳ openen en sluiten</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="300"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation>Markeer gewijzigde gebieden op het scherm. (werkt alleen i.c.m. XRender)</translation>
+        <translation>Markeer gewĳzigde gebieden op het scherm. (werkt alleen i.c.m. XRender)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="500"/>
@@ -301,7 +301,7 @@
     <message>
         <location filename="../../src/maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation>Doorverwijzen negeren</translation>
+        <translation>Doorverwĳzen negeren</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="443"/>
@@ -314,42 +314,42 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Met dank aan</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licentie</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Maker</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished">Over</translation>
+        <translation>Over</translation>
     </message>
 </context>
 </TS>
