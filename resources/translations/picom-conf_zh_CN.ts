@@ -188,7 +188,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation>Inactive opacity set by -i overrides _NET_WM_OPACITY values</translation>
+        <translation>由 -i 设置的非活动不透明度会覆盖 _NET_WM_OPACITY 值</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="217"/>
