@@ -241,8 +241,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation>Käytä X-synkronointiaitaa pitämään asiakkaiden piirtokutsut synkronoituina (nvidia-ajurit)
-Käytä X-synkronointiaitaa pitämään piirtokutsut asiakkailta synkronoituina (nvidia-ajurit)</translation>
+        <translation>Käytä X-synkronointiaitaa pitämään asiakkaiden piirtokutsut synkronoituina (nvidia-ajurit)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="461"/>
@@ -315,42 +314,42 @@ Käytä X-synkronointiaitaa pitämään piirtokutsut asiakkailta synkronoituina 
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedot</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiitokset</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisenssi</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekijä</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished">Tietoja</translation>
+        <translation>Tietoja</translation>
     </message>
 </context>
 </TS>

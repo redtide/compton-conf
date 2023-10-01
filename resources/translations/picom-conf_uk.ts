@@ -314,7 +314,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation>Відомості</translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
