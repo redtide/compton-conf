@@ -13,7 +13,8 @@ picom-conf is a configuration tool for X composite manager [picom].
 
 Runtime:
 
-- Qt5 base
+- Qt5/6 base
+- [picom]
 - [libconfig]
 
 Build:
@@ -47,6 +48,7 @@ For contributing translations the [LXQt Weblate] platform can be used.
 
 
 [alternative]:        https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
+[CI]:                 https://github.com/qtilities/picom-conf/actions/workflows/build.yml/badge.svg
 [libconfig]:          https://github.com/hyperrealm/libconfig/
 [LXQt Weblate]:       https://translate.lxqt-project.org/projects/qtilities/picom-conf/
 [Packaging status]:   https://repology.org/badge/vertical-allrepos/picom-conf.svg
