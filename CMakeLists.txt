@@ -1,18 +1,20 @@
 cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
-project(Picom-Conf
+project(PicomConf
     VERSION 0.17.0
     LANGUAGES CXX
 )
-option(PICOM_ENABLE_AUTOSTART      "Enable picom autostart using DBus [default: OFF]" OFF)
-option(PROJECT_TRANSLATIONS_UPDATE "Update source translations [default: OFF]" OFF)
-
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+option(PICOM_ENABLE_AUTOSTART "Enable picom autostart using DBus [default: OFF]" OFF)
 #===============================================================================
 # Qt
 #===============================================================================
+option(PROJECT_TRANSLATIONS_UPDATE "Update source translations [default: OFF]" OFF)
+set(PROJECT_TRANSLATION_TEST_ENABLED 0 CACHE STRING "Whether to enable translation testing [default: 0]")
+set(PROJECT_TRANSLATION_TEST "it" CACHE STRING "Country code of language to test in IDE [default: it]")
 set(PROJECT_QT_VERSION 5 CACHE STRING "Qt version to use [default: 5]")
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -50,8 +52,9 @@ set(PROJECT_OTHER_FILES
     .gitignore
     README.md
 )
-source_group("Other Files" FILES ${PROJECT_OTHER_FILES})
-source_group("UI Files" FILES ${PROJECT_UI_FILES})
+source_group("Sources" FILES ${PROJECT_SOURCES})
+source_group("Misc" FILES ${PROJECT_OTHER_FILES})
+source_group("UI" FILES ${PROJECT_UI_FILES})
 #===============================================================================
 # Resources
 #===============================================================================
@@ -92,6 +95,8 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE
     ORGANIZATION_DOMAIN="${PROJECT_ORGANIZATION_URL}"
     PROJECT_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_ID}"
     PROJECT_VERSION="${PROJECT_VERSION}"
+    PROJECT_TRANSLATION_TEST="${PROJECT_TRANSLATION_TEST}"
+    PROJECT_TRANSLATION_TEST_ENABLED=${PROJECT_TRANSLATION_TEST_ENABLED}
 )
 #===============================================================================
 # Install application
@@ -127,11 +132,6 @@ Install prefix:                   ${CMAKE_INSTALL_PREFIX}
 Autostart directory:              ${PROJECT_AUTOSTART_DIR}
 Autostart enabled:                ${PICOM_ENABLE_AUTOSTART}
 Update translations before build: ${PROJECT_TRANSLATIONS_UPDATE}
-
-CXX Debug flags:                  ${CMAKE_CXX_FLAGS_DEBUG}
-CXX Release flags:                ${CMAKE_CXX_FLAGS_RELEASE}
-CXX MinSize flags:                ${CMAKE_CXX_FLAGS_MINSIZEREL}
-CXX RelWithDebInfo flags:         ${CMAKE_CXX_FLAGS_RELWITHDEBINFO}
 ")
 
 if(QT_VERSION_MAJOR EQUAL 6)

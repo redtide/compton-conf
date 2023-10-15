@@ -1,5 +1,7 @@
 # picom-conf
 
+[![CI]](https://github.com/qtilities/picom-conf/actions/workflows/build.yml)
+
 ## Overview
 
 picom-conf is a configuration tool for X composite manager [picom].
@@ -17,13 +19,13 @@ Runtime:
 Build:
 
 - CMake
-- Qt5 Linguist Tools
+- Qt Linguist Tools
 - [Qtilitools] CMake modules
 - Git (optional, to pull latest VCS checkouts)
 
 ## Build
 
-`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a [valid alternative].<br>
+`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a valid [alternative].<br>
 `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.<br>
 Using `sudo make install` is discouraged, instead use the system package manager where possible.
 
@@ -44,10 +46,10 @@ For contributing translations the [LXQt Weblate] platform can be used.
 [![Translation status]](https://translate.lxqt-project.org/widgets/qtilities/)
 
 
-[picom]:              https://github.com/yshui/picom/
+[alternative]:        https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
 [libconfig]:          https://github.com/hyperrealm/libconfig/
-[Qtilitools]:         https://github.com/qtilities/qtilitools/
-[valid alternative]:  https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
-[Packaging status]:   https://repology.org/badge/vertical-allrepos/picom-conf.svg
 [LXQt Weblate]:       https://translate.lxqt-project.org/projects/qtilities/picom-conf/
+[Packaging status]:   https://repology.org/badge/vertical-allrepos/picom-conf.svg
+[picom]:              https://github.com/yshui/picom/
+[Qtilitools]:         https://github.com/qtilities/qtilitools/
 [Translation status]: https://translate.lxqt-project.org/widgets/qtilities/-/picom-conf/multi-auto.svg

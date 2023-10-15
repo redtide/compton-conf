@@ -27,11 +27,11 @@ int main(int argc, char** argv) {
     QTranslator qtTranslator, translator;
 
     // install the translations built-into Qt itself
-#if 1
-    QLocale locale = QLocale::system();
-#else
-    QLocale locale(QLocale("it"));
+#if PROJECT_TRANSLATION_TEST_ENABLED
+    QLocale locale(QLocale(PROJECT_TRANSLATION_TEST));
     QLocale::setDefault(locale);
+#else
+    QLocale locale = QLocale::system();
 #endif
     if (qtTranslator.load(QStringLiteral("qt_") + locale.name(),
 #if QT_VERSION < 0x060000
