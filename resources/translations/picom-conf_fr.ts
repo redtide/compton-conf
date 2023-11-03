@@ -324,7 +324,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation>Merci</translation>
+        <translation>Remerciements</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>

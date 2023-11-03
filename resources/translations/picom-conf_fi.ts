@@ -314,7 +314,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation>Tiedot</translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
