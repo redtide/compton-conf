@@ -334,7 +334,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation>רשיון</translation>
+        <translation>רישיון</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
@@ -344,12 +344,12 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation>מחבר</translation>
+        <translation>יוצר</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation> אודות</translation>
+        <translation>על אודות</translation>
     </message>
 </context>
 </TS>

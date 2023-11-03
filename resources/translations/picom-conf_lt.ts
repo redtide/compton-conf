@@ -26,42 +26,42 @@
     <message>
         <location filename="../../src/maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aptikti kliento languose _NET_WM_OPACITY</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandyti aptikti langus apvaliais kampais</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Langų grupavimui naudoti WM_TRANSIENT_FOR</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Priverstinai dažyti visus langus naudojant mišinį</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Žymėti langus, neturinčius langų tvarkytuvės rėmelio, kaip aktyvius</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Bandyti aptikti langų tvarkytuvės langus ir žymėti juos kaip aktyvius</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Viso ekrano langų aptikimui nenaudoti EWMH</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusuotų langų aptikimui naudoti _NET_WM_ACTIVE_WINDOW</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="24"/>
@@ -97,37 +97,37 @@
     <message>
         <location filename="../../src/maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidinės sąsajos</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Neišblukinti sunaikintų ARGB langų su langų tvarkytuvės rėmeliu</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimizuoti</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Įjungti/išjungti „VSync“</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietoj glFlush() naudoti glFinish(), kad būtų pasiektas (galimai) geresnis „VSync“</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Įjungti informacijos apie pažeidimus naudojimą, siekiant padėti apriboti dažymo sritį</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidinė sąsaja</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="30"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Neaktyvus nepermatomumas nustatytas naudojant -i, nustelbia _NET_WM_OPACITY reikšmes</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="217"/>
@@ -234,7 +234,7 @@ juos atveriant/užveriant</translation>
         <location filename="../../src/maindialog.ui" line="306"/>
         <location filename="../../src/maindialog.ui" line="445"/>
         <source>X Render</source>
-        <translation>X Render</translation>
+        <translation>„X Render“</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="313"/>
@@ -244,37 +244,37 @@ juos atveriant/užveriant</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudoti „X Sync“ užtvarą, kad būtų sinchronizuotos kliento piešimo iškvietos (Nvidia tvarkyklės)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Vengti pakartotinio pikselių atvaizdavimo susiejimo, esant lango pažeidimams</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Vengti naudoti trafareto buferį</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Derinti</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Paryškinti atnaujintą ekrano sritį. Tik „X Render“</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodyti visas X klaidas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="582"/>
@@ -284,32 +284,32 @@ juos atveriant/užveriant</translation>
     <message>
         <location filename="../../src/maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepermatomumas:</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Apkirpti šešėlį aukščiau</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokusavimas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilnas šešėlis</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepaisyti peradresavimo</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Langų tipai</translation>
     </message>
 </context>
 <context>
@@ -327,7 +327,7 @@ juos atveriant/užveriant</translation>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation>Ačiū</translation>
+        <translation>Padėkos</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
