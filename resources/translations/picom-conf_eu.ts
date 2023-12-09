@@ -11,37 +11,37 @@
     <message>
         <location filename="../../src/maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Orokorra</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili WM_CLIENT_LEADER leihoak taldekatzeko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detektatu _NET_WM_OPACITY bezeroaren leihoetan</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiatu ertz biribildutako leihoak hautematen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili WM_TRANSIENT_FOR leihoak taldekatzeko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Behartu leiho guztiak nahastuz margotzera</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Markatu WM markorik ez duten leihoak aktibo gisa</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez erabili EWMH pantaila osoko leihoak detektatzeko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="429"/>
