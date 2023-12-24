@@ -112,7 +112,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation>Включить/выключить вертикальную синхронизацию</translation>
+        <translation>Включить/отключить вертикальную синхронизацию</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
@@ -317,42 +317,42 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Благодарности</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Лицензия</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Автор</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished">О программе</translation>
+        <translation>О программе</translation>
     </message>
 </context>
 </TS>

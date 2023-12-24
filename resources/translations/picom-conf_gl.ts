@@ -11,47 +11,47 @@
     <message>
         <location filename="../../src/maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Avanzado</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Xeral</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa WM_CLIENT_LEADER para agrupar ventás</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Detecta _NET_WM_OPACITY nas fiestras do cliente</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Tenta detectar fiestras con esquinas redondeadas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Use WM_TRANSIENT_FOR para agrupar ventás</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrigar a pintar todas as fiestras con mestura</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Marca as fiestras que non teñen marco WM como activas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Tenta detectar as fiestras WM e marcalas como activas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
