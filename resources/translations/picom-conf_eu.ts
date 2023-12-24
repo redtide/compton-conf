@@ -46,7 +46,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiatu WM leihoak detektatzen eta markatu aktibo gisa</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili _NET_WM_ACTIVE_WINDOW zein leiho fokatuta dagoen zehazteko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="24"/>
@@ -92,32 +92,32 @@
     <message>
         <location filename="../../src/maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez itzali suntsitutako ARGB leihoak WM markoarekin</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimizatu</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu/desgaitu VSync</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili glFinish() glFlush()-ren ordez VSync (baliteke) hobea izateko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu kalteen informazioa erabiltzea margotzeko eremua mugatzen laguntzeko</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Backend-a</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="30"/>
