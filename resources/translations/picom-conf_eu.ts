@@ -178,7 +178,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>-i-k ezarritako opakutasun inaktiboak _NET_WM_OPACITY balioak gainidazten ditu</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="217"/>
@@ -231,47 +231,47 @@
     <message>
         <location filename="../../src/maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreratua</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Backendak</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili X Sync hesia bezeroen zozketa-deiak sinkronizatzeko (nvidia kontrolatzaileak)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Saihestu pixmap birlotzea leiho kalteetan</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Saihestu txantiloia buffer erabiltzea</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Araztu</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Nabarmendu pantailaren eremu eguneratua.  X Errendatzea soilik</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi X errore guztiak</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="582"/>
@@ -281,22 +281,22 @@
     <message>
         <location filename="../../src/maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opakotasuna:</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Klip itzala gainean</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokua</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzal osoa</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="337"/>
@@ -306,7 +306,7 @@
     <message>
         <location filename="../../src/maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Leiho motak</translation>
     </message>
 </context>
 <context>
@@ -314,42 +314,42 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informazioa</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Eskerrik asko</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizentzia</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Egilea</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Buruz</translation>
     </message>
 </context>
 </TS>

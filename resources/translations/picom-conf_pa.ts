@@ -6,12 +6,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖਾਸ ਪਰਭਾਵ ਸੈਟਿੰਗਾਂ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="367"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਮ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="373"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="387"/>
         <source>Try to detect windows with rounded corners</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗੋਲ ਕੀਤੇ ਕੋਨਿਆਂ ਨਾਲ ਵਿੰਡੋ ਖੋਜਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="394"/>
@@ -276,7 +276,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="582"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="327"/>
@@ -314,17 +314,17 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਾਣਕਾਰੀ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>ਧੰਨਵਾਦ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
@@ -344,12 +344,12 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਖਕ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਬਾਰੇ</translation>
     </message>
 </context>
 </TS>

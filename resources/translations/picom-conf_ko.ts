@@ -324,7 +324,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation>감사한 분들</translation>
+        <translation>도움을 주신 분들</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
