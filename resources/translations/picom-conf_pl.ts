@@ -225,7 +225,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation>Back-end renderowania</translation>
+        <translation>Backend renderowania</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="306"/>
@@ -349,7 +349,7 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation>O programie</translation>
+        <translation>Informacje</translation>
     </message>
 </context>
 </TS>

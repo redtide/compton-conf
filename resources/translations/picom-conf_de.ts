@@ -21,12 +21,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="373"/>
         <source>Use WM_CLIENT_LEADER to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_CLIENT_LEADER zum Gruppieren von Fenstern verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="380"/>
         <source>Detect _NET_WM_OPACITY on client windows</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_OPACITY auf Client-Fenstern erkennen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="387"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="394"/>
         <source>Use WM_TRANSIENT_FOR to group windows</source>
-        <translation type="unfinished"></translation>
+        <translation>WM_TRANSIENT_FOR zum Gruppieren von Fenstern verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
@@ -46,22 +46,22 @@
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Fenster, die keinen WM-Rahmen haben, als aktiv markieren</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>WM-Fenster versuchen zu erkennen und als aktiv zu markieren</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>EWMH nicht zur Erkennung von Vollbildfenstern verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>_NET_WM_ACTIVE_WINDOW zum Bestimmen des fokussierten Fensters verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="24"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Zerstörte ARGB-Fenster mit WM-Rahmen nicht überblenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="542"/>
@@ -117,12 +117,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>glFinish() anstelle von glFlush() für (möglicherweise) besseren VSync verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Schadensinformationen zur Eingrenzung des zu zeichnenden Bereichs verwenden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="294"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit -i festgelegte inaktive Deckkraft überschreibt die _NET_WM_OPACITY-Werte</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="217"/>
@@ -251,12 +251,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pixmap-Neubindung bei Fensterbeschädigung vermeiden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwendung des Schablonenpuffers vermeiden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="487"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualisierten Bereich des Bildschirms markieren. Nur X-Rendering</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="500"/>
