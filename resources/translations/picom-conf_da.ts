@@ -314,7 +314,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
@@ -324,7 +324,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Tak</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
@@ -334,7 +334,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licens</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
@@ -344,7 +344,7 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Udvikler</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>

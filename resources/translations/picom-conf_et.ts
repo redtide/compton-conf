@@ -36,277 +36,277 @@
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Sunni kõikide akende loomisel kasutama sujuvat üleminekut</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
         <source>Mark windows that have no WM frame as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Märgi kõik aknad aktiivseks, millele aknahaldur pole joonistatud piiret</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="415"/>
         <source>Try to detect WM windows and mark them as active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ürita tuvastada aknahalduri aknaid ja märgi nad aktiivseks</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="422"/>
         <source>Do not use EWMH to detect fullscreen windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära kasuta täisekraanivaate tuvastamiseks EWMH&apos;d</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="429"/>
         <source>Use _NET_WM_ACTIVE_WINDOW to determine which window is focused</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta _NET_WM_ACTIVE_WINDOW meetodit tuvastamaks akent, kus on fookus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="24"/>
         <location filename="../../src/maindialog.cpp" line="338"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutused</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="30"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta akendel kliendipoolset varjutust</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="37"/>
         <source>The blur radius for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutuse raadius</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="47"/>
         <source>The left offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutuse nihe vasakul</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="61"/>
         <source>The top offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutuse nihe üleval</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="75"/>
         <source>The translucency for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutuse läbipaistvus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="92"/>
         <source>Color of shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Varjutuse värv</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="106"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Laiendatud ekraanil kärbi täisvaates akende varjutused</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="114"/>
         <location filename="../../src/maindialog.ui" line="526"/>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Läbipaistmatus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="120"/>
         <source>Default opacity of inactive windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitteaktiivsete akende vaikimisi läbipaistmatus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="137"/>
         <source>Default opacity for active windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivsete akende vaikimisi läbipaistmatus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="154"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Akende tiitliribade ja piirjoonte läbipaistmatus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="171"/>
         <source>Dim inactive windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Tumenda mitteaktiivsed aknad</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="188"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära lase tumendamist kohanduda akende läbipaistmatuse alusel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="195"/>
         <source>Blur background of transparent windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Hägusta läbipaistvate akende taust</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="202"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation type="unfinished"></translation>
+        <translation>Hägusta ka läbipaistmatute akende taust, kui neid on läbipaistvaid osi</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="209"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Ära lase hägustamise raadiusel kohanduda akende läbipaistmatuse alusel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="337"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisaseadistused</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="439"/>
         <source>Backends</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustateenused</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="532"/>
         <source>Inactive opacity set by -i overrides _NET_WM_OPACITY values</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse -i võtmega määratud mitteaktiivne läbipaistmatus asendab _NET_WM_OPACITY väärtused</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="217"/>
         <location filename="../../src/maindialog.ui" line="510"/>
         <location filename="../../src/maindialog.cpp" line="334"/>
         <source>Fade</source>
-        <translation type="unfinished"></translation>
+        <translation>Hägustamine</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="223"/>
         <source>Fade windows during opacity changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Tumenda aknad läbipaistmatuse muutumisel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="230"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Hägustamise sammuda vahe millisekundites</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="240"/>
         <source>Opacity change between steps while fading in</source>
-        <translation type="unfinished"></translation>
+        <translation>Läbipaistmatuse muutuse sammud hägustamisel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="263"/>
         <source>Opacity change between steps while fading out</source>
-        <translation type="unfinished"></translation>
+        <translation>Läbipaistmatuse muutuse sammud hägustamise lõpetamisel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="286"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Akende avamisel ja sulgemisel ära kasuta hägustamist</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="516"/>
         <source>Do not fade destroyed ARGB windows with WM frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Aknahalduri raamiga suletud ARGB akende puhul ära kasuta hägustamist</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="542"/>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimeeri</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="548"/>
         <source>Enable/disable VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Lülita VSync sisse/välja</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="555"/>
         <source>Use glFinish() instead of glFlush() for (possibly) better VSync</source>
-        <translation type="unfinished"></translation>
+        <translation>Võimaliku parem VSync&apos;i nimel kasuta glFlush() meetodi asemel glFinish() meetodit</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="562"/>
         <source>Enable the use of damage information to help limit the area to paint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta muutuste tuvastamist aitamaks määrata uuestinäidatavat aknaosa</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="294"/>
         <source>Backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustateenus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="300"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Esitusvalmenduse taustateenus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="306"/>
         <location filename="../../src/maindialog.ui" line="445"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="313"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="451"/>
         <source>Use X Sync fence to sync clients&apos; draw calls (nvidia drivers)</source>
-        <translation type="unfinished"></translation>
+        <translation>Klientide kuvamispäringute sünkroniseerimisel kasuta X Sync piiret (nvidia draiverite puhul)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="461"/>
         <source>GLX</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="467"/>
         <source>Avoid rebinding pixmap on window damage</source>
-        <translation type="unfinished"></translation>
+        <translation>Väldi pikslikaardi uuesti lisamist akna sulgemisel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="474"/>
         <source>Avoid using stencil buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Väldi šabloonpuhvri kasutamist</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="487"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Veaotsing</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="493"/>
         <source>Highlight the updated area of the screen. X Render only</source>
-        <translation type="unfinished"></translation>
+        <translation>Rõhuta uuendatud ekraaniosa. Kehtib vaid X Render&apos;i kasutamisel</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="500"/>
         <source>Show all X errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita kõiki X serveri vigu</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="582"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse teave</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="327"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läbipaistmatus:</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärbi ülemist varjutust</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="335"/>
         <source>Focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Fookus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="336"/>
         <source>Full shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Täisvarjutus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="337"/>
         <source>Ignore redirection</source>
-        <translation type="unfinished"></translation>
+        <translation>Eira ümbersuunamist</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="443"/>
         <source>Window Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Aknatüübid</translation>
     </message>
 </context>
 <context>
