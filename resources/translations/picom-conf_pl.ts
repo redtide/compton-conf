@@ -349,7 +349,7 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation>Informacje</translation>
+        <translation>O programie</translation>
     </message>
 </context>
 </TS>
