@@ -334,7 +334,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation>License</translation>
+        <translation>Licence</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
