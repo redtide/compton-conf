@@ -314,7 +314,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation>Πληροφορία</translation>
+        <translation>Πληροφορίες</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
@@ -324,7 +324,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation>Ευχαριστώ</translation>
+        <translation>Ευχαριστίες</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
@@ -334,7 +334,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation>Άδεια χρήσης</translation>
+        <translation>Άδεια</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
@@ -344,12 +344,12 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation>Δημιουργός</translation>
+        <translation>Συντάκτης</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation>Περί</translation>
+        <translation>Σχετικά</translation>
     </message>
 </context>
 </TS>
