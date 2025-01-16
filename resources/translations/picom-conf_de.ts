@@ -41,7 +41,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="401"/>
         <source>Force all windows to be painted with blending</source>
-        <translation type="unfinished"></translation>
+        <translation>Erzwingen, dass alle Fenster mit Mischfarben gezeichnet werden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="408"/>
@@ -286,7 +286,7 @@
     <message>
         <location filename="../../src/maindialog.cpp" line="333"/>
         <source>Clip shadow above</source>
-        <translation type="unfinished">Schatten oben abschneiden</translation>
+        <translation>Schatten oben abschneiden</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="335"/>

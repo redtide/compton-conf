@@ -319,7 +319,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation>qrc:/about.html</translation>
+        <translation>qrc:/के बारे में.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
@@ -329,7 +329,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation>qrc:/thanks.html</translation>
+        <translation>qrc:/धन्यवाद.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
@@ -339,7 +339,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation>qrc:/license.html</translation>
+        <translation>qrc:/लाइसेंस.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>

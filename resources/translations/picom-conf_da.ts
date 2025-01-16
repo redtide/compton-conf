@@ -319,7 +319,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
@@ -329,7 +329,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
@@ -339,7 +339,7 @@
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
@@ -349,7 +349,7 @@
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished">Om</translation>
+        <translation>Om</translation>
     </message>
 </context>
 </TS>
